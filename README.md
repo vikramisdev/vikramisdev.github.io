@@ -38,6 +38,6 @@
 
 -->
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=beastzx18&show_icons=true&locale=en&layout=compact" alt="beastzx18" /></p>
+<p><img align="left" width = "300" height = "200" src="https://github-readme-stats.vercel.app/api/top-langs?username=beastzx18&show_icons=true&locale=en&layout=compact" alt="beastzx18" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=beastzx18&show_icons=true&locale=en" alt="beastzx18" /></p>
