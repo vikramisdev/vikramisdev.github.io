@@ -11,7 +11,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=beastzx18&label=Profile%20views&color=129e00&style=plastic" alt="beastzx18" /> </p>
 
-<img align="center" alt="Coding" width="350" src="https://cdn.dribbble.com/users/2646423/screenshots/5507196/boy.gif">
+<img align="center" alt="Coding" width="350" src="https://pin.it/6PJpqPb">
 
 
 
