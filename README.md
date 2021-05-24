@@ -1,6 +1,6 @@
 # Welcome To My <i>Kosmos</i> 
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=beastzx18&label=Profile%20views&color=00bdff&style=iron" alt="beastzx18" /></p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=beastzx18&label=Profile%20views&color=00bdff&style=flat-square" alt="beastzx18" /></p>
 
 <img align="left" alt="Coding" width="350" height = "250" src="https://i.pinimg.com/originals/45/d1/db/45d1db2f2af39c5c53a43af6ee935079.gif">
 
