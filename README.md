@@ -39,5 +39,5 @@
 -->
 
 <p><img align="left" width = "400" height = "200" src="https://github-readme-stats.vercel.app/api/top-langs?username=beastzx18&show_icons=true&locale=en&layout=compact" alt="beastzx18" /></p>
-\n
+<p> </p>
 <p>&nbsp;<img align="left" width = "400" height = "200" src="https://github-readme-stats.vercel.app/api?username=beastzx18&show_icons=true&locale=en" alt="beastzx18" /></p>
