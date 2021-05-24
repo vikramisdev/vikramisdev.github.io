@@ -15,15 +15,15 @@
 
 
 
-- 📫 How to reach me **beastzx18@gmail.com**
+- 📫 How to reach me: **beastzx18@gmail.com**
 
-- ⚡ Fun fact **I Pay Less Attention To Anyone**
+- ⚡ Fun fact: **I Pay Less Attention To Anyone**
 
 <h3 align="left">Social Platforms:</h3>
 
 <p align="left">
 
-<!-- <a href="https://twitter.com/vikram_v18" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="khushboogoel01" height="30" width="40" /></a> -->
+<!-- <a href="https://twitter.com/vikram_v18" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="vikramv18" height="30" width="40" /></a> -->
 
 
 <a href="https://www.instagram.com/beastzx18/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="BEAST" height="30" width="40" /></a>
