@@ -17,11 +17,11 @@
 
 - 📫 How to reach me: **beastzx18@gmail.com**
 
-- ⚡ Fun fact: **I Pay Less Attention To Anyone**
+- ⚡ About Me: **I Pay Less Attention To Anyone**
 
 <h3 align="left">Social Platforms:</h3>
 
-<p align="left">
+<p align="center">
 
 <!-- <a href="https://twitter.com/vikram_v18" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="vikramv18" height="30" width="40" /></a> -->
 
