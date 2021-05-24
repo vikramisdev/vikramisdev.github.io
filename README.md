@@ -15,14 +15,13 @@
 <p align="left">
 
 <a href="https://twitter.com/vikram_v18" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="vikramv18" height="30" width="40" /></a> 
-
 <a href="https://www.instagram.com/beastzx18/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="BEAST" height="30" width="40" /></a>
-
 <a href="https://youtube.com/channel/UCj4VHllQLeQTJ-fpqT1QljQ" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg" alt="BEAST" height="30" width="40" /></a>
 
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
+
+<h3 align="left">Learning Languages:</h3>
 
 <p align="left"> 
 <a href="https://www.python.org" target="_blank"> <img src="https://www.vectorlogo.zone/logos/python/python-horizontal.svg" alt="python" width="120" height="40"/> </a> 
