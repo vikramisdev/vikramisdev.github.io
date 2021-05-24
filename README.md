@@ -11,19 +11,19 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=beastzx18&label=Profile%20views&color=129e00&style=plastic" alt="beastzx18" /> </p>
 
-<img align="center" alt="Coding" width="350" height = "250" src="https://i.pinimg.com/originals/45/d1/db/45d1db2f2af39c5c53a43af6ee935079.gif">
+<img align="left" alt="Coding" width="350" height = "250" src="https://i.pinimg.com/originals/45/d1/db/45d1db2f2af39c5c53a43af6ee935079.gif">
 
 
 
 - 📫 How to reach me: **beastzx18@gmail.com**
 
-- ⚡ About Me: **I Pay Less Attention To Anyone**
+- ⚡ About Me: **I Am Slow At Response**
 
 <h3 align="left">Social Platforms:</h3>
 
-<p align="center">
+<p align="left">
 
-<!-- <a href="https://twitter.com/vikram_v18" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="vikramv18" height="30" width="40" /></a> -->
+<a href="https://twitter.com/vikram_v18" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="vikramv18" height="30" width="40" /></a> -->
 
 
 <a href="https://www.instagram.com/beastzx18/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="BEAST" height="30" width="40" /></a>
