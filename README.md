@@ -1,4 +1,4 @@
-# Hey , Welcome To My <i>Kosmos</i> 👋
+# Welcome To My <i>Kosmos</i> 
 
 
 
