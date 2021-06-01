@@ -15,7 +15,7 @@
 
 <p align="left">
 <a href="https://www.python.org" target="_blank"> <img src="https://i.ibb.co/hsfjtKH/1622523326120.png" alt="python" width="60" height="60"/> </a>
-<a href="https://www.w3.org/html/" target="_blank"> <img src="https://i.ibb.co/ZVWP70N/1622523565398.png" alt="html5" width="60" height="60"/> </a> 
+<a href="https://www.w3.org/html/" target="_blank"> <img src="https://i.ibb.co/ZVWP70N/1622523565398.png" alt="html5" width="70" height="70"/> </a> 
 </p>
 
 <p><img align="left" width = "500" height = "170" src="https://github-readme-stats.vercel.app/api/top-langs?username=beastzx18&show_icons=true&locale=en&layout=compact" alt="beastzx18"/></p>
