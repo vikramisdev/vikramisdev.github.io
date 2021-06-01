@@ -6,7 +6,9 @@
 
 
 
-- ⚡ About Me: **I Am Slow At Responding**
+## About Me: 
+
+- **I Am Slow At Responding**
 
 
 <h3 align="left">Learning Languages:</h3>
