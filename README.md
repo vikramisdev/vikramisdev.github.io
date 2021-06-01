@@ -18,8 +18,8 @@
 <a href="https://www.w3.org/html/" target="_blank"> <img src="https://i.ibb.co/ZVWP70N/1622523565398.png" alt="html5" width="70" height="70"/> </a> 
 </p>
 
-<p><img align="left" width = "500" height = "170" src="https://github-readme-stats.vercel.app/api/top-langs?username=beastzx18&show_icons=true&locale=en&layout=compact" alt="beastzx18"/></p>
-<p><img align="left" width = "500" height = "170" src="https://github-readme-stats.vercel.app/api?username=beastzx18&show_icons=true&locale=en" alt="beastzx18"/></p>
+<p><img align="left"> <img width = "500" height = "170" src="https://github-readme-stats.vercel.app/api/top-langs?username=beastzx18&show_icons=true&locale=en&layout=compact" alt="beastzx18"/></p>
+<p><img align="left"> <img width = "500" height = "170" src="https://github-readme-stats.vercel.app/api?username=beastzx18&show_icons=true&locale=en" alt="beastzx18"/></p>
 
 <h3 align="left">Social Platforms:</h3>
 
