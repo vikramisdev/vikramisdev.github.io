@@ -5,10 +5,7 @@
 <img align="left" alt="Coding" width="350" height = "250" src="https://i.pinimg.com/originals/45/d1/db/45d1db2f2af39c5c53a43af6ee935079.gif">
 
 
-
-- 📫 How to reach me: **beastzx18@gmail.com**
-
-- ⚡ About Me: **I Am Slow At Response**
+- ⚡ About Me: **I Am Slow At Responding**
 
 
 <h3 align="left">Learning Languages:</h3>
