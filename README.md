@@ -27,7 +27,7 @@
 <a href="https://twitter.com/vikram_v18" target="blank"><img align="center" src="https://i.ibb.co/JqN2Yb4/1622523750254.png" alt="vikramv18" height="30" width="30" /></a> 
 <a href="https://www.instagram.com/beastzx18/" target="blank"><img align="center" src="https://i.ibb.co/NFsNPyD/1622523859811.png" alt="BEAST" height="30" width="30" /></a>
 <a href="https://youtube.com/channel/UCj4VHllQLeQTJ-fpqT1QljQ" target="blank"><img align="center" src="https://i.ibb.co/FYPz5gs/1622523967011.png" alt="BEAST" height="30" width="30" /></a>
-<a href="https://beastzx18@gmail.com"target="blank"><img align="center" src="https://telegra.ph/file/96601bf754b54f3bb2ff8.jpg"  alt="BEAST" height="30" width="30" /></a>
+<a href="https://beastzx18@gmail.com"target="blank"><img align="center" src="https://i.ibb.co/bQWYPQ5/1622524161577.png"  alt="BEAST" height="30" width="30" /></a>
 </p>
 
 
