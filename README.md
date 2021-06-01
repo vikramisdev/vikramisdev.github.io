@@ -14,7 +14,7 @@
 <h3 align="left">Learning Languages:</h3>
 
 <p align="left">
-<a href="https://www.python.org" target="_blank"> <img src="https://ibb.co/nrCv5Df" alt="python" width="40" height="40"/> </a>
+<a href="https://www.python.org" target="_blank"> <img src="https://i.ibb.co/hsfjtKH/1622523326120.png" alt="python" width="40" height="40"/> </a>
 <a href="https://www.w3.org/html/" target="_blank"> <img src="https://telegra.ph/file/27797d38b508c139b1524.jpg" alt="html5" width="40" height="40"/> </a> 
 </p>
 
