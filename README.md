@@ -8,7 +8,7 @@
 
 ## About Me: 
 
-- **I Am Slow At Responding**
+- **I am from india, currently i am a student and studying BCS, When the apple fell down on newton, he got curious and discovered gravity, same happened with me, One day a question fell on me, i started thinking how do programmers, developers make something apps, webapps, softwares, etc ? I started finding answers of my questions, and this is how i ended up here, funny ?**
 
 
 <h3 align="left">Learning Languages:</h3>
