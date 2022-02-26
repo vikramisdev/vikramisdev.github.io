@@ -1,4 +1,4 @@
-# • Hi, I am Beast
+# • Hi, I am ࿇•ẞᗴᗩSԵ•࿇
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=beastzx18&label=Profile%20views&color=00bdff&style=plastic" alt="beastzx18" /></p>
 
