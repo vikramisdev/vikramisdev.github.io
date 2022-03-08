@@ -7,4 +7,3 @@
 <p><img align="left"> <img width = "500" height = "170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=beastzx18&layout=compact&langs_count=99" alt="beastzx18"/></p>
 
 <img alt="YouTube Channel Subscribers" src="https://img.shields.io/youtube/channel/subscribers/UCj4VHllQLeQTJ-fpqT1QljQ?style=for-the-badge">
-<img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/vikram_v18?style=for-the-badge">
