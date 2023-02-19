@@ -29,6 +29,7 @@ header h1 {
 
 .button {
   margin: 30px 10px 30px 10px;
+  text-align: center;
 }
 
 .btn1 {
@@ -60,29 +61,37 @@ header h1 {
 
 footer {
   position: realtive;
-  left: 0;
   bottom: 0;
-  width: 100%;
-  background-color: gray;
-  color: white;
+  background: white;
+  color: black;
   text-align: center;
   padding: 30px;
+  margin: 10px;
+  border-radius: 0px 0px 10px 10px;
 }
 
+
+/* contact section */
+
 .card {
-  margin: 40px 10px 40px 10px;
-  text-align: center;
+  margin: 10px 10px 50px 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .card img {
-  max-width: 100%;
+  vertical-align: middle;
   margin: 0px;
-  width: 80%;
-  height: 80%;
+  max-width: 40%;
+  width: 50%;
+  height: 50%;
   border-radius: 5px;
   box-shadow: rgba(149, 157, 165, 0.8) 0px 3px 30px;
 }
 
+.contact {
+  margin: 60px 10px 10px 10px;
+}
 
 .cbtn:active {
   background: white;
@@ -90,12 +99,13 @@ footer {
 }
 
 .cbtn {
+  margin: 0% 0% 0% 5%;
+  vertical-align: middle;
   color: white;
   background: transparent;
-  width: 80%;
-  padding: 15px;
-  margin: 5px 0px 40px 0px;
+  width: 50%;
+  padding: 10px;
   border: 1px solid white;
-  font-size: 20px;
+  font-size: 15px;
 }
 
