@@ -3,5 +3,5 @@
 <p>Hey 👋🏻, its Vikram.</p>
 <p>Welcome peaky ! I am a computer science student from India. I have basic and some intermediate knowledge about programming. I know python, html, c, etc & some other languages. Feel free to look my GitHub Repositories.</p>
 
-<p><img align="left"> <img width = "500" height = "170" src="https://github-readme-stats.vercel.app/api?username=beastzx18&show_icons=true&locale=en" alt="beastzx18"/></p>
-<p><img align="left"> <img width = "500" height = "170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=beastzx18&layout=compact&langs_count=99" alt="beastzx18"/></p>
+<p><img align="left"> <img width = "500" height = "170" src="https://github-readme-stats.vercel.app/api?username=vikramv20&show_icons=true&locale=en" alt="vikram vishwakarma"/></p>
+<p><img align="left"> <img width = "500" height = "170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vikramv20&layout=compact&langs_count=99" alt="vikram vishwakarma"/></p>
