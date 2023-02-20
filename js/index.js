@@ -11,11 +11,32 @@ function cstoft() {
   r.style.padding = "10px";
   r.style.backgroundColor = "white";
   r.style.marginTop = "20px";
+}
+
+function expand_topbar() {
+  let topbar_bottom = document.getElementById("topbar_bottom");
+  let topbar = document.getElementById("topbar");
+  let topbarbg = document.getElementById("topbarbg");
   
+  let h = topbar_bottom.style.height;
   
+  if(h=="" || h=="0px")
+  {
+    
+    topbar_bottom.style.height = "300px";
+    topbar.style.boxShadow = "0px 0px 40px 5px black";
+    topbarbg.style.backgroundColor = "gray";
+  }
+  else
+  {
+    topbar_bottom.style.height = "0px";
+    topbar.style.boxShadow = "none";
+    topbarbg.style.backgroundColor = "black";
+  }
 }
 
 function isNumeric(str) {
   if (typeof str != "string") return false
   return !isNaN(str) && !isNaN(parseFloat(str)) 
 }
+
