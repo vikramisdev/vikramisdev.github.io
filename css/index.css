@@ -45,7 +45,7 @@ header h1 {
   opacity: 0.8;
 }
 
-button {
+.button button {
   background: transparent;
   color: white;
   text-align: center;
@@ -54,7 +54,7 @@ button {
   border: 1px solid white;
 }
 
-button:focus {
+.button button:focus {
   background: white;
   color: black;
 }
@@ -114,7 +114,44 @@ h1:nth-child(4) {
 
 .content p {
   color: white;
-  padding: 10px;
   font-size: 200%;
+}
+
+.input-div label {
+  color: white;
+  font-family: sans-serif;
+}
+
+.input-div input {
+  width: 100%;
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+}
+
+.input-div {
+  text-align: center;
+  margin: 10px;
+  background: orangered;
+  padding: 15px 10px 15px 10px;
+  border-radius: 5px;
+}
+
+.input-div button {
+  width: 100%;
+  margin: 10px 0px 0px 0px;
+  padding: 20px 0px 20px 0px;
+  background: #204a4dee;
+  border: none;
+  font-size: 20px;
+  font-weight: 30px;
+  color: white;
+  border-radius: 5px;
+}
+
+.input-div button:active {
+  background: white;
+  color: black;
 }
 
