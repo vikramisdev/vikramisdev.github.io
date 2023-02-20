@@ -7,7 +7,7 @@ function cstoft() {
   if(c.value == "" || !isNumeric(c.value))
     return c.value = "";    
   
-  r.innerHTML = old_value + " °C = " + c.value*9/5+32 + " °F";
+  r.innerHTML = old_value + " °C = " + String(c.value*9/5+32) + " °F";
   r.style.padding = "10px";
   r.style.backgroundColor = "white";
   r.style.marginTop = "20px";
