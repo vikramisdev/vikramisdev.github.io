@@ -17,7 +17,7 @@ body {
 .header-top {
     background-color: orange;
     color: white;
-    padding: 1000px 0px;
+    padding: 800px 10px;
     text-align: center;
 }
 
@@ -47,7 +47,7 @@ body {
 .header-bottom {
     background-color: orange;
     color: white;
-    padding: 1000px 0px;
+    padding: 800px 10px;
 }
 
 .header-bottom h3 {
