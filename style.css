@@ -6,6 +6,7 @@
 body {
     height: 100%;
     width: 100%;
+    background-color: black;
 }
 
 .header {
@@ -16,7 +17,7 @@ body {
 .header-top {
     background-color: orange;
     color: white;
-    padding: 200px 0px;
+    padding: 500px 0px;
     text-align: center;
 }
 
@@ -29,6 +30,7 @@ body {
     padding: 3px;
     font-family: 'Brush Script MT', cursive;
     padding: 5px;
+    font-size: 50px;
 }
 
 .header-top h3 {
@@ -39,12 +41,13 @@ body {
     letter-spacing: 3px;
     margin-top: 10px;
     padding: 5px;
+    font-size: 50px;
 }
 
 .header-bottom {
     background-color: orange;
     color: white;
-    padding: 200px 0px;
+    padding: 500px 0px;
 }
 
 .header-bottom h3 {
@@ -61,21 +64,19 @@ body {
 footer {
     height: 100%;
     width: 100%;
-    padding: 60px 0px;
+    padding: 80px 0px;
     background-color: orange;
 }
 
 .footer h4 {
-    margin: 10px;
+    margin: 30px;
+    font-size: 30px;
 }
 
 .footer img {
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
     padding: 10px;
     display: inline;
     border-radius: 50px;
 }
-
-
-
