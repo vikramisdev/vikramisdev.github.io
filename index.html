@@ -1,57 +1,31 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My Personal Website</title>
-    <link rel="stylesheet" type="text/css" href="css/index.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-    <div class="topbarbg" id="topbarbg">
-      <div onclick="expand_topbar()" id="topbar" class="topbar"></div>
-      <div id="topbar_bottom" class="topbar_bottom"></div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="animate_header()">
+    <div class="header">
+        <div id="header-top" class="header-top">
+            <h2>Bonjour</h2>
+            <h3>HI, I'M VIKRAM<br>VISHWAKARMA</h3>
+        </div>
+        
+        <img src="res/vikram.png" alt=""></img>
+        
+        <div id="header-bottom" class="header-bottom">
+        </div>
+        
+        <footer class="footer">
+            <h4>Copyright © 2023. All Rights Reserved.</h4>
+            <img src="res/github.png" alt=""></img>
+            <img src="res/instagram.png" alt=""></img>
+            <img src="res/twitter.png" alt=""></img>
+        </footer>
+        
     </div>
     
-    <header>
-      <h1>HEY</h2>
-      <h1>FRIENDS</h1>
-   </header>
-   
-   <div class="description">
-     <p>Welcome to my website, This website is made by me ~ vikram vishwakarma, This website will be less responsive on big screen devices.</p>
-   </div>
-    
-   <div class="button">
-     <button onclick="window.open('index.html')" class="btn1">HOME</button>
-     
-     <button onclick="window.open('contact.html')" class="btn2">CONTACT</button>
-     
-     <button onclick="window.open('skills.html')" class="btn2">SKILLS</button>
-     
-     <button onclick="window.open('about.html')" class="btn1">ABOUT</button>
-   </div>
-   
-   <div class="images">
-     <img src="res/vikram_vishwakarma.png" alt=""></img>
-     <h1>Hi, I'm Vikram Vishwakarma</h1>
-     <p>A Software & Web Developer, Learner</p>
-     <h1>Born Creative, Passionate About My Work</h1>
-     <h1></h1>
-   </div>
-   
-   <div class="content">
-     <p>“A great leader’s courage to fulfill his vision comes from passion, not position.” <br><br>—John Maxwell</p>
-   </div>
-   
-   <div class="input-div">
-     <label>CELCIUS TO FAHRENHEIT</label>
-     <input type="text" name="hello" id="celcius">
-     <p id="result"></p>
-     <button id="rbtn" onclick="cstoft()">CALCULATE</button>
-   </div>
-   
-   <footer>
-     Copyright © 2023. All Rights Reserved.
-   </footer>
-   
-   <script src="js/index.js"></script>
-  </body>
+    <script src="script.js"></script>
+</body>
 </html>
