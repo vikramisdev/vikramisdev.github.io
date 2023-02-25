@@ -12,6 +12,7 @@ body {
 .header {
     background-color: black;
     text-align: center;
+    display: inline;
 }
 
 .header-top {
@@ -66,6 +67,7 @@ footer {
     width: 100%;
     padding: 80px 0px;
     background-color: orange;
+    text-align: center;
 }
 
 .footer h4 {
@@ -79,7 +81,11 @@ footer {
     padding: 10px;
     display: inline;
     border-radius: 50px;
+    margin: auto;
 }
 
+.footer-img {
+    text-align: center;
+}
 
 
