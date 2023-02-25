@@ -12,3 +12,8 @@ function animate_header() {
     secondblock.style.transition = "1s border-radius";
 }
 
+// open url 
+
+function open_url(url) {
+    window.open(url)
+}
