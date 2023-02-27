@@ -1,93 +1,121 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Sans-serif;
 }
 
-body {
-    height: 100%;
+/* all section */
+.all {
+    overflow: hidden;
+    display: flex;
     width: 100%;
+}
+
+/* all end */
+
+
+/* navigation bar */
+.navbar {
+    padding: 10px;
+    position: absolute;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.bar {
+    height: 5px;
+    width: 30px;
+    margin: 5px;
     background-color: black;
 }
 
-.header {
-    background-color: black;
-    text-align: center;
-    display: inline;
+/* navigation bar end */
+
+
+/* profile pic */
+.profilePic {
+    padding: 200px 20px 20px 20px;
+    background-color: lightblue;
 }
 
-.header-top {
-    background-color: orange;
-    color: white;
-    padding: 800px 10px;
-    text-align: center;
-    letter-spacing: 3px;
+.profilePic img {
+    width: 100px;
+    border-radius: 50%;
+    outline: 5px solid orange;
+    outline-offset: 5px;
+}
+
+/* profile pic end */
+
+
+/* name */
+.name {
+    background-color: lightblue;
+    padding: 40px 20px;
+}
+
+/* name end */
+
+
+/* description */
+.description {
+    background-color: lightblue;
+    padding: 50px 20px;
     font-size: 50px;
-    outline: 5px solid orange;
-    outline-offset: 20px;
 }
 
-.header-text {
-    padding: 10px;
-    position: absolute;
-    top: 100px;
-    left: 50px;
+/* description end */
+
+
+/* about section */
+.aboutHeader {
+    padding: 30px 20px 10px 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: orange;
+}
+
+.aboutContent {
+    background-color: orange;
+    padding: 30px 20px;
+}
+
+/* about section end */
+
+
+/* footer section */
+.footerSection {
+    padding: 50px;
+    background-color: lightblue;
+    letter-spacing: 10px;
+}
+
+.footerSection img {
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+
+/* sidemenu */
+.sideMenu {
+    background-color: #72A4BD;
+}
+
+.sideMenu h1 {
+    background: white;
     text-align: left;
+    padding: 0px;
+    overflow: hidden;
 }
 
-.header-top h2 {
-    color: oldlace;
-    font-family: 'Brush Script MT', cursive;
-    margin-bottom: 20px;
-}
+/* sidemenu end */
 
-.header-top h3 {
-    color: black;
-    font-family: sans-serif;
-}
 
-.header-bottom {
-    background-color: orange;
-    color: white;
-    padding: 800px 10px;
-    outline: 5px solid orange;
-    outline-offset: 20px;
-}
-
-.header-bottom h3 {
-    position: absolute;
-    right: 5px;
-    padding: 30px;
-}
-
-.header img {
+/* main section */
+.mainSection {
     width: 100%;
-    height: 100%;
 }
 
-footer {
-    height: 100%;
-    width: 100%;
-    padding: 80px 0px;
-    background-color: orange;
-    text-align: center;
-}
-
-.footer h4 {
-    margin: 30px;
-    font-size: 30px;
-}
-
-.footer img {
-    width: 80px;
-    height: 80px;
-    padding: 10px;
-    display: inline;
-    border-radius: 50px;
-    margin: auto;
-}
-
-.footer-img {
-    text-align: center;
-}
-
-
+/* main section end */
