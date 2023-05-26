@@ -3,23 +3,23 @@
     padding: 0;
 }
 
-html, body {
-    height: 150%;
+body {
     background-color: black;
+    height: 100px;
 }
 
 .header {
-    height: 100%;
     width: 100%;
     color: white;
-    padding-bottom: 600px;
+    padding-bottom: 50px;
     text-align: left;
+    margin-top: 50px;
 }
 
-
 .header h1:first-child {
-    font-size: 40px;
-    padding: 25px 25px 0px 25px;
+    font-size: 35px;
+    padding: 0px 25px 0px 25px;
+    opacity: 0.5;
 }
 
 .header h1:nth-child(2) {
@@ -27,28 +27,52 @@ html, body {
     padding: 0px 25px 0px 25px;
 }
 
-.inner {
-    padding: 30px;
-    margin: 20px;
-    border-radius: 5px;
+.header h5:nth-child(3) {
+    padding: 10px 25px 0px 25px;
+    font-size: 12px;
+    color: lightcoral;
+    font-family: Georgia, serif;
+}
+
+.profile_pic img {
+    height: 190px;
+    width: 190px;
+    border-radius: 100%;
+    margin: 50px 25px 0px 25px;
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    box-shadow: 0px 0px 20px black;
+    background-color: black;
+    z-index: 10;
+}
+
+.imgbg {
     background-color: lightblue;
+    width: 50px;
+    height: 50px;
+    padding: 80px;
+    border-radius: 100%;
+    margin: 20px 25px 0px 25px;
+    opacity: 0.8;
 }
 
-.header h3 {
-    width: 100%;
-    height: 380px;
-    color: black;
-    text-align: center;
+.profile_pic {
+    position: relative;
+    margin-top: 40px;
 }
 
-#inner2 {
-    background-color: lightcyan;
+.desc {
+    margin: 100px 25px 20px 25px;
+    font-weight: bolder;
+    opacity: 0.8;
+    text-transform: uppercase;
+    
 }
 
-#inner3 {
-    background-color: lightcoral;
-}
-
-#inner4 {
-    background-color: lightsalmon;
+.description {
+    margin: 0px 25px;
+    opacity: 0.9;
+    font-family: sans-serif;
+    padding: 10px 0px;
 }
