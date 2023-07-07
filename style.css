@@ -1,78 +1,63 @@
 * {
-    margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    text-align: center;
 }
 
 body {
-    background-color: black;
-    height: 100px;
+    background-color: #fafafa;
+    margin: 0 20px 0 20px;
 }
 
-.header {
-    width: 100%;
-    color: white;
-    padding-bottom: 50px;
+.all img {
+    width: 220px;
+    margin: 130px 0 30px 0;
+    border-radius: 50% 35%;
+}
+
+.all h2 {
     text-align: left;
-    margin-top: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    transform: scale(1, 1.1);
+    margin: 0 0 5px 0;
+    opacity: 0.7;
 }
 
-.header h1:first-child {
-    font-size: 35px;
-    padding: 0px 25px 0px 25px;
-    opacity: 0.5;
+.all h1 {
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    transform: scale(1, 1.1);
+    font-size: 28px;
+    margin: 0 0 5px 0;
+    opacity: 0.8;
 }
 
-.header h1:nth-child(2) {
-    font-size: 60px;
-    padding: 0px 25px 0px 25px;
+.all h4 {
+    text-align: left;
+    opacity: 0.6;
 }
 
-.header h5:nth-child(3) {
-    padding: 10px 25px 0px 25px;
-    font-size: 12px;
-    color: lightcoral;
-    font-family: Georgia, serif;
+.all h4:last-child {
+    text-align: left;
+    opacity: 0.6;
+    font-size: 13px;
 }
 
-.profile_pic img {
-    height: 190px;
-    width: 190px;
-    border-radius: 100%;
-    margin: 50px 25px 0px 25px;
-    position: absolute;
-    top: -20px;
-    left: 20px;
-    box-shadow: 0px 0px 20px black;
-    background-color: black;
-    z-index: 10;
-}
-
-.imgbg {
-    background-color: lightblue;
-    width: 50px;
+.all button {
+    border: none;
     height: 50px;
-    padding: 80px;
-    border-radius: 100%;
-    margin: 20px 25px 0px 25px;
-    opacity: 0.8;
-}
-
-.profile_pic {
-    position: relative;
-    margin-top: 40px;
-}
-
-.desc {
-    margin: 100px 25px 20px 25px;
+    width: 100px;
+    float: left;
+    margin: 100px 0 0 0;
+    padding: 10px;
     font-weight: bolder;
-    opacity: 0.8;
-    text-transform: uppercase;
-    
+    border-radius: 10px;
+    background-color: #36454F;
+    color: white;
 }
 
-.description {
-    margin: 0px 25px;
-    opacity: 0.9;
-    font-family: sans-serif;
-    padding: 10px 0px;
+.all button:hover {
+    color: #36454F;
+    background-color: #E5E4E2;
+    transition: ease-in 0.2s;
 }
