@@ -2,62 +2,194 @@
     padding: 0;
     box-sizing: border-box;
     text-align: center;
+    margin: 0;
 }
 
 body {
-    background-color: #fafafa;
-    margin: 0 20px 0 20px;
+    background-image: linear-gradient(white 1%, #d5fff4 600%);
 }
 
-.all img {
-    width: 220px;
-    margin: 100px 0 30px 0;
+.home img {
+    width: 180px;
+    margin: 180px 0 80px 0;
     border-radius: 50% 35%;
+    outline: 8px solid #E5E4E2;
+    background-color: lightsteelblue;
 }
 
-.all h2 {
+.home h2 {
     text-align: left;
     font-family: 'Ubuntu', sans-serif;
     transform: scale(1, 1.1);
-    margin: 0 0 5px 0;
+    margin: 0 20px 5px 20px;
     opacity: 0.7;
 }
 
-.all h1 {
+.home h1 {
     text-align: left;
     font-family: 'Ubuntu', sans-serif;
     transform: scale(1, 1.1);
     font-size: 28px;
-    margin: 0 0 5px 0;
+    margin: 0 20px 20px 20px;
     opacity: 0.8;
 }
 
-.all h4 {
+#knownas {
     text-align: left;
-    opacity: 0.6;
+    margin: 0 20px 20px 20px;
 }
 
-.all h4:last-child {
-    text-align: left;
-    opacity: 0.6;
-    font-size: 13px;
-}
-
-.all button {
-    border: none;
-    height: 50px;
-    width: 100px;
+#quote {
     float: left;
-    margin: 100px 0 0 0;
-    padding: 10px;
-    font-weight: bolder;
+    font-size: 15px;
+    margin: 5px 20px 10px 20px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.home p {
+    padding: 10px 20px 100px 20px;
+    float: left;
+    text-align: left;
+    font-weight: bold;
+}
+
+.blocks {
+    display: none;
+}
+
+.block {
+    height: 50px;
+    width: 130px;
+    background-color: orangered;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 10px;
-    background-color: #36454F;
     color: white;
 }
 
-.all button:hover {
-    color: #36454F;
-    background-color: #E5E4E2;
-    transition: ease-in 0.2s;
+
+/* about section */
+
+.about {
+    display: block;
+    margin: 0 0 100px 0;
+}
+
+.about h2 {
+    width: 100%;
+    padding: 100px 0 0 0;
+    font-size: 30px;
+}
+
+.about h4 {
+    opacity: 0.6;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.about img {
+    width: 250px;
+    border-radius: 10px;
+    margin: 30px 0 20px 0;
+    box-shadow: 0px 0px 10px -4px black;
+}
+
+.ablocks {
+    margin: 20px 20px 0 20px;
+    display:grid;
+    grid-template-columns: 105px 105px 105px;
+    grid-row: auto auto;
+    justify-content: center;
+}
+
+.ablocks h4 {
+    padding: 5px;
+    font-weight: bold;
+}
+
+.ablock {
+    margin: 5px;
+    padding: 25px 5px 25px 5px;
+    display: inline;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+
+/* skills section */
+
+.skills {
+    padding: 10px;
+    margin: 20px;
+}
+
+.skills h2 {
+    margin-top: 10px;
+}
+
+.skills h4 {
+    font-weight: normal;
+    margin: 0 0 50px 0;
+}
+
+.ftab {
+    margin: 15px 0 15px 0;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background-color: white;
+}
+
+.fcards {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-row: auto auto;
+    justify-content: center;
+}
+
+.ftab h2 {
+    padding: 15px 10px 25px 10px;
+    font-size: 20px;
+}
+
+.sblock {
+    padding: 10px;
+}
+
+.sblock h3 {
+    font-size: 17px;
+    text-align: left;
+    padding: 0 5px 0 5px;
+    margin: 0 5px 0 5px;
+}
+
+.sblock h4 {
+    font-size: 14px;
+    text-align: left;
+    padding: 0 5px 5px 5px;
+    margin: 0 5px 5px 5px;
+}
+
+.btab {
+    margin: 15px 0 15px 0;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    text-align: center;
+    background-color: white;
+}
+
+.btab h2 {
+    padding: 15px 10px 25px 10px;
+    font-size: 20px;
+}
+
+.bcards {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-row: auto auto;
+    justify-content: center;    
 }
