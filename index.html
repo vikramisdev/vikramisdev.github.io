@@ -1,109 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
+    
+    <title>Not your Vikram</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Is It You ?!</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
 </head>
 
-<body>
-    <div id="home" class="home">
-        <img src="res/profile.png" alt=""></img>
-        <h2>Hey Weebs,</h2>
-        <h1>I'm Vikram Vishwakarma</h1>
-        <h4 id="knownas">Visual Web Designer | Developer | Student</h4>
-        <q id="quote">Experience is the name everyone gives to their mistakes. – Oscar Wilde</q>
-        <p>Frontend Developer, I create web pages with UI / UX user interface, I have years of experience.</p>
-    </div>
+<body onscroll="read_pos(); close_slide_menu();">
     
-    
-    <div id="about" class="about">
-        <h2>About Me</h2>
-        <h4>My Introduction</h4>
-        <img src="res/back.png" alt=""></img>
-        <div class="ablocks" id="ablocks">
-            <div class="ablock">
-                <h4>Experience</h2>
-            </div>
-            
-            <div class="ablock">
-                <h4>Completed</h3>
-            </div>
-            
-            <div class="ablock">
-                <h4>Support</h3>
-            </div>
-        </div>
-    </div>
-    
-    
-    <div id="skills" class="skills">
-        <h2>Skills</h2>
-        <h4>My Technical Level</h4>
-        <div class="ftab" id="ftab">
-            <h2>Frontend Developer</h2>
-            <div class="fcards">
-            <div class="sblock" id="sblock">
-                <h3>HTML</h2>
-                <h4>Intermediate</h4>
-            </div>
-
-            
-            <div class="sblock" id="sblock">
-                <h3>CSS</h2>
-                <h4>Intermediate</h4>
-            </div>
-
-            
-            <div class="sblock" id="sblock">
-                <h3>JAVASCRIPT</h2>
-                <h4>Basic</h4>
-            </div>
-
-            
-            <div class="sblock" id="sblock">
-                <h3>GIT</h2>
-                <h4>Basic</h4>
-            </div>
-            
-            </div>
+    <!-- home section -->
+    <div onclick="close_slide_menu()" class="home-wrapper">
+        
+        <!-- profile image -->
+        <div class="pfpImg">
+            <img class="actualImg" src="res/profile.png" alt=""></img>
         </div>
         
-        <div class="btab" id="btab">
-            <h2>Backend Developer</h2>
-            <div class="bcards">
-            <div class="sblock" id="sblock">
-                <h3>PHP</h2>
-                <h4>Basic</h4>
-            </div>
-            
-            
-            <div class="sblock" id="sblock">
-                <h3>POSTGRESQL</h2>
-                <h4>Intermediate</h4>
-            </div>
-
-            
-            <div class="sblock" id="sblock">
-                <h3>PYTHON</h2>
-                <h4>Advanced</h4>
-            </div>
-
-            
-            <div class="sblock" id="sblock">
-                <h3>NODEJS</h2>
-                <h4>Basic</h4>
-            </div>
-            
-            </div>
-
+        <!-- profile image caption - name & status -->
+        <div class="pfpCaption">
+            <h3>VIKRAM &nbsp;VISHWAKARMA</h3>
+            <h4>STUDENT | <span style="color: orangered;">WEB</span> DEV</h4>
         </div>
-    </div>
+    
+        <!-- quote to keep you motivated -->
+        <div class="quote">
+            <p>"Experience is the name everyone gives to their mistakes. – <span style="font-weight: bolder;">Oscar Wilde</span>"</p>
+        </div>
+        
+        <!-- catagorised information dialogs -->
+        <div class="dialogs">
+            <div class="dialog dialog-1">
+                <img src="res/languages.png" alt="languages"></img>
+                <h4>
+                    <li class="bi-translate">  <b>Spoken Languages I Know -</b>
+                    </li>
+                </h4>
 
+                <p>I am multilingual, I know English, Hindi, Marathi & little bit of other languages. it's Great when people from other countries, states speak in your languages.</p>
+            </div>
+    
+            <div class="dialog dialog-2">
+                <img src="res/hobbies.png" alt="languages"></img>
+                <h4>
+                    <li class="bi-controller">  <b>Hobbies I Like -</b>
+                    </li>
+                </h4>
+                <p>I like many things but some of them will never be boring. Like Outdoor games & Mobile Games, collecting colourful-transparent rocks, fishing, little bit reading, watching movies & web series, trecking & hiking, capturing moments in camera, travelling, exploring, experimenting, etc.</p>
+            </div>
+    
+            <div class="dialog dialog-3">
+                <img src="res/work.png" alt="languages"></img>
+                <h4>
+                    <li class="bi-briefcase">   <b>Education & Skills -</b>
+                    </li>
+                </h4>
+                
+                <p>Right now I am pursuing a BSC (Computer Science) degree in India. Here, I am learning how to make websites like these. I know some of programming, markup & scripting languages well enough to write code and implement in my projects. I know C, Python, HTML, CSS, Javascript, PHP, Shell, DBMS, RDBMS & More.</p>
+            </div>
+        </div>
+    
+        <div class="lastCat">
+            <img src="res/cat.png" alt=""></img>
+        </div>
+    </div> <!-- end of home-wrapper -->
+    
+    
+    <!-- absolute items -->
+    <div class="menu-container">
+        <div class="menu">
+            <li onclick="open_slide_menu()" class="menu-icon bi-menu-button-wide-fill"></li>
+            
+            <div class="slider">
+                <li class="menu-btn bi-person-vcard" onclick="open_menu('about')"></li>
+                <li class="menu-btn bi-house" onclick="open_menu('index')"></li>
+                <li class="menu-btn bi-person" onclick="open_menu('contact')"></li>
+            </div>
+        </div>    
+    </div>
+    
+    <script src="script.js"></script>
 </body>
 </html>
