@@ -6,21 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    
 </head>
 
-<body onscroll="read_pos(); close_slide_menu();">
+<body onscroll="close_slide_menu();">
     
     <!-- home section -->
     <div onclick="close_slide_menu()" class="home-wrapper">
         
         <!-- profile image -->
-        <div class="pfpImg">
-            <img class="actualImg" src="res/profile.png" alt=""></img>
+        <div class="pfp-wrapper">
+            <div class="pfp-wrapper-inner">
+                <img class="pfp-img" src="res/profile.png" alt=""></img>
+            </div>
         </div>
         
         <!-- profile image caption - name & status -->
-        <div class="pfpCaption">
+        <div class="pfp-caption">
             <h3>VIKRAM &nbsp;VISHWAKARMA</h3>
             <h4>STUDENT | <span style="color: orangered;">WEB</span> DEV</h4>
         </div>
@@ -31,19 +32,21 @@
         </div>
         
         <!-- catagorised information dialogs -->
-        <div class="dialogs">
-            <div class="dialog dialog-1">
+        <div class="home-cards">
+            <div class="home-card home-card-1">
                 <img src="res/languages.png" alt="languages"></img>
+                
                 <h4>
                     <li class="bi-translate">  <b>Spoken Languages I Know -</b>
                     </li>
                 </h4>
 
-                <p>I am multilingual, I know English, Hindi, Marathi & little bit of other languages. it's Great when people from other countries, states speak in your languages.</p>
+                <p>I am multilingual, I know English, Hindi, Marathi & little bit of other languages. it's Great when people from other countries, states speak in the same languages you do.</p>
             </div>
     
-            <div class="dialog dialog-2">
+            <div class="home-card home-card-2">
                 <img src="res/hobbies.png" alt="languages"></img>
+               
                 <h4>
                     <li class="bi-controller">  <b>Hobbies I Like -</b>
                     </li>
@@ -51,8 +54,9 @@
                 <p>I like many things but some of them will never be boring. Like Outdoor games & Mobile Games, collecting colourful-transparent rocks, fishing, little bit reading, watching movies & web series, trecking & hiking, capturing moments in camera, travelling, exploring, experimenting, etc.</p>
             </div>
     
-            <div class="dialog dialog-3">
+            <div class="home-card home-card-3">
                 <img src="res/work.png" alt="languages"></img>
+                
                 <h4>
                     <li class="bi-briefcase">   <b>Education & Skills -</b>
                     </li>
@@ -62,22 +66,83 @@
             </div>
         </div>
     
-        <div class="lastCat">
+        <div id="bottom-cat" class="bottom-cat">
             <img src="res/cat.png" alt=""></img>
+            <p id="bottom-cat-caption">Hey, No touching me!</p>
+        </div>
+        
+        <div class="social-media">
+            <li onclick="open_url('twitter')" class="bi-twitter twitter"></li>
+            <li onclick="open_url('facebook')" class="bi-facebook facebook"></li>
+            <li onclick="open_url('whatsapp')" class="bi-whatsapp whatsapp"></li>
+            <li onclick="open_url('instagram')" class="bi-instagram instagram"></li>
         </div>
     </div> <!-- end of home-wrapper -->
     
     
-    <!-- absolute items -->
-    <div class="menu-container">
-        <div class="menu">
-            <li onclick="open_slide_menu()" class="menu-icon bi-menu-button-wide-fill"></li>
+    <!-- contact wrapper -->
+    <div onclick="close_slide_menu()" class="contact-wrapper">
+        <form method="post">
+            <div class="myform">
+                <img src="res/contact_us.png" alt=""></img>
+                <br>
+                <h3>How can i help you ?</h3>
+                <p>It looks like you need some help regarding something that is related to me, You can ask me through a mail.</p>
+                
+                <label for="name">Name</label>
+                <br>
+                <input class="name" placeholder="your name" type="text" name="name" required>
             
-            <div class="slider">
-                <li class="menu-btn bi-person-vcard" onclick="open_menu('about')"></li>
-                <li class="menu-btn bi-house" onclick="open_menu('index')"></li>
-                <li class="menu-btn bi-person" onclick="open_menu('contact')"></li>
+                <br><br>
+            
+                <label for="message">Message</label>
+                <br>
+                <textarea class="message" placeholder="Your message" name="message"></textarea>
+                
+                <br><br>
+                
+                <li oncopy="return false" onclick="compose_mail()" class="submit-button" type="button" value="submit">compose mail</li>
             </div>
+        </form>
+    </div> <!-- contact wrapper end -->
+    
+    
+    
+    <!-- about wrapper -->
+    <div onclick="close_slide_menu()" class="about-wrapper">
+        <h4>About Me</h4>
+        <h1>Wanna Know About <br> Me ?</h1>
+        <div class="about-cards">
+            <div class="about-card about-card-1">
+                <h3>Who am I ? What I do ?</h3>
+                <p>I am 22 year old rookie who dreams to go to the moon, Na, just joking !! There is no place like Earth. So my name is Vikram Vishwakarma and i am from India, Maharashtra, somewhere in a city called Nashik. I am a third year CS student who dreams to be a Software/App/Web Developer & Graphic/UI/UX Designer. Yes I know its a lot. But I am assuming myself to be all of these in the near future. I Hope So ! As its said there is no gain without pain.</p>
+                <img src="res/about_thoughts.png" alt=""></img>
+            </div>
+            
+            <div class="about-card about-card-2">
+                <h3>What I started to learn in the beginning ?</h3>
+                <p>In the starting, I was like the other people who had the same interest in cs course, i started to learn from everywhere i could've. Later when it felt like there is no use & results from doing it in a unordered way. Then i asked some people who were already in that field and started to learn things which were necessary and important for me. Like the Types of Programming Languages, Building Logic, Used Applications, Making visuals by using web development languages, doing projects to refine my skills and so on.</p>
+            </div>
+            
+            <div class="about-card about-card-3">
+                <h3>How i made this website ? where i hosted it ?, etc.</h3>
+                <p>So this website is hosted by Github Pages (which is used for documentation purpose) & for the domain part i got it free on is-a.dev. I made this website lightweight and added the Material You theme in it so it kinda looks cool & colourful ! I am always available for advices related to this website, so you can tell me by sending a mail about it if you want !!;)</p>
+            </div>
+        </div>
+    </div>
+    <!-- about wrapper ends here -->
+    
+    
+    <!-- absolute items -->
+    <div class="menu-wrapper">
+        <div class="menu">
+            <div class="slider">
+                <li class="about-button menu-button bi-person-vcard" onclick="open_tabs('.about-wrapper')"></li>
+                <li class="home-button menu-button bi-house" onclick="open_tabs('.home-wrapper')"></li>
+                <li class="contact-button menu-button bi-send" onclick="open_tabs('.contact-wrapper')"></li>
+            </div>
+            
+            <li onclick="open_slide_menu()" class="menu-icon bi-menu-button-wide-fill"></li>
         </div>    
     </div>
     
