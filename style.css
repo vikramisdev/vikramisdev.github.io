@@ -61,31 +61,91 @@ li {
     opacity: 0.6;
 }
 
-.home-card {
-    text-align: center;
-    margin: 50px 30px;
+.education-card {
+    margin: 50px 20px;
     border-radius: 10px;
-    background-color: #ea9999;
-}
-
-.home-card h4 {
-    text-align: left;
+    /*background-color: #ea9999;*/
+    background-color: #FF7F50;
     padding: 15px;
 }
 
-.home-card img {
-    width: 100%;
-    border-radius: 10px 10px 0 0;
-    opacity: 0.9;
+.education-title {
+    color: whitesmoke;
 }
 
-.home-card p {
+.education-title:before {
+    content: "• ";
+}
+
+.experience-card {
+    margin: 50px 20px;
+    border-radius: 10px;
+    /*background-color: #ea9999;*/
+    background-color: lightblue;
     padding: 15px;
+}
+
+.experience-title {
+    color: whitesmoke;
+}
+
+.experience-title:before {
+    content: "• ";
+}
+
+.educard {
+    display: flex;
+    align-items: stretch;
+    margin: 30px 0;
+}
+
+.edu-line {
+    margin: 0 15px;
+    background: red;
+}
+
+.edu-line hr {
+    border: 1px solid whitesmoke;
+    height: 100%;
+}
+
+.edu-year {
+    height: 30px;
+    width: 70px;
+    background-color: lavender;
+    margin: 0px 20px 5px 5px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.edu-year:before {
+  content: "";
+  position: absolute;
+  right: -15px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 15px solid lavender;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+}
+
+.edu-content h2 {
+    margin-bottom: 3px;
+}
+
+.edu-content h2:before {
+    content: "";
+}
+
+.edu-content p {
+    margin: 10px 0;
     text-align: justify;
-    text-justify: inter-character;
-    font-family: 'Helvetica', 'Arial', sans-serif;
-    opacity: 0.7;
 }
+  
 
 .quote {
     text-align: center;
@@ -99,6 +159,7 @@ li {
 
 .bottom-cat img {
     width: 20%;
+    border-radius: 100%;
 }
 
 .bottom-cat p {
@@ -183,12 +244,13 @@ li {
 
 .myform p {
     margin: 10px 0 30px 0;
+    text-align: justify;
     color: black;
     opacity: 0.7;
 }
 
 .myform {
-    padding: 20px;
+    padding: 10px 20px;
     background-color: whitesmoke;
 }
 
@@ -205,7 +267,6 @@ li {
 
 /* about wrapper */
 .about-wrapper {
-    padding: 10px;
     display: none;
 }
 
@@ -215,14 +276,13 @@ li {
     color: lightcoral;
 }
 
-.about-wrapper h1 {
+.about-wrapper h2 {
     text-align: center;
     margin: 10px 0 40px 0;
     font-size: 30px;
 }
 
 .about-cards {
-    padding: 10px;
     width: 100%;
 }
 
@@ -241,7 +301,7 @@ li {
 .about-card {
     border-radius: 10px;
     text-align: center;
-    margin: 10px;
+    margin: 15px;
 }
 
 .about-card h3 {
@@ -297,7 +357,7 @@ li {
 @media(min-width: 480px) {
     .home-cards {
         display: grid;
-        grid-template-columns: 33% 33% 33%;
+        grid-template-columns: 50% 50%;
     }
     
     .contact-wrapper form {
@@ -305,7 +365,7 @@ li {
     }
     
     .bottom-cat img {
-        width: 10%;
+        width: 5%;
     }
     
     .about-cards {
@@ -404,3 +464,4 @@ li {
 }      
 
 /* end of other uncategorised */
+
