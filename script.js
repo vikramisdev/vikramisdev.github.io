@@ -2,15 +2,17 @@
 let menu_status = 0;
 let active_tab = ".home-wrapper";
 
-window.onload = function() {
+function profile_animation() {
+    sleep(5000);
+
     let pfp_img = document.querySelector(".pfp-img");
     
-    
     pfp_img.style.transform = "scale(1.2)";
-    
-    pfp_img.style.transition = "transform 2s ";
+    pfp_img.style.transition = "transform 3s ";
 }
 
+
+profile_animation();
 
 
 function open_slide_menu() {
@@ -118,4 +120,9 @@ function open_url(url) {
         window.open("https://instagram.com/vikramisdev", "_blank");
     else 
         window.open(url)
+}
+
+
+function sleep(ms) {
+    return new Promise((resolve) => setTimeout(resolve, ms));
 }
