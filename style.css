@@ -1,31 +1,25 @@
 * {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 0;
-    padding: 0;
 }
 
 body {
     background-color: aliceblue;
-    margin: 20px;
 }
 
 .nav {
     display: flex;
     justify-content: center;
-    align-items: center;
     padding: 5px;
-    margin: 30px;
-    text-align: center;
+    margin: 60px 30px 50px 30px;
 }
 
 .nav-btn {
+    margin: 10px;
     font-weight: bold;
     background-color: lavender;
     padding: 12px 20px;
     border-radius: 50px;
     user-select: none;
-    margin: 0px 15px;
-    height: 20px;
 }
 
 .nav-btn:hover {
@@ -36,6 +30,7 @@ body {
 .nav-img, .nav-img2 {
     width: 65px;
     border-radius: 50%;
+    margin: 0px 20px;
 }
 
 .nav-img2-container {
@@ -46,10 +41,12 @@ body {
 
 .nav-img2 {
     display: none;
+    margin: 30px 0px 10px 0px;
     width: 100px;
 }
 
 .card1 {
+    margin: 40px 0px 20px 20px;
     background-color: lightcoral;
     border-radius: 30px;
     padding: 50px;
@@ -61,6 +58,7 @@ body {
     display: flex;
     justify-content: left;
     font-size: 15px;
+    margin-left: 10px;
     opacity: 0.8;
 }
 
@@ -93,6 +91,7 @@ body {
     align-items: center;
     justify-content: right;
     width: 50%;
+    margin: 10px;
 }
 
 .profile-pic img {
@@ -102,15 +101,18 @@ body {
 }
 
 .about-container, .work-container {
+    margin: 60px 20px 80px 20px;
 }
 
 .about-title, .work-title {
     text-align: left;
+    margin: 25px;
     font-size: 60px;
     padding-top: 20px;
 }
 
 .about-desc {
+    margin: 20px;
     font-size: 25px;
     text-align: justify;
 }
@@ -128,13 +130,16 @@ body {
     text-align: center;
     width: fit-content;
     padding: 20px;
+    margin: 40px 20px 40px 20px;
     border-radius: 20px;
 }
 
 .work1-title {
+    margin: 20px;
 }
 
 .work1-desc {
+    margin: 45px 20px 40px 20px;
     font-size: 20px;
     text-align: justify;
 }
@@ -144,22 +149,25 @@ body {
 }
 
 .work1-img1 {
+    margin: 0px 20px;
     border: 5px solid lightslategray;
     border-radius: 20px;
     scroll-snap-type: y mandatory;
 }
 
 .contact-container {
+    margin: 10px 0px 80px 0px;
 }
 
 .contact-title {
-
+    margin: 20px;
     font-size: 60px;
     padding: 20px;
 }
 
 .mail-container {
     padding: 40px;
+    margin: 20px;
     background-color: cornflowerblue;
     border-radius: 20px;
 }
@@ -170,6 +178,8 @@ body {
 
 .mail-name, .mail-message {
     width: 25%;
+    margin-bottom: 20px;
+    margin-top: 5px;
     border: none;
 }
 
@@ -200,6 +210,7 @@ body {
 }
 
 .footer-container {
+    margin: 20px;
     background-color: black;
     color: white;
     text-align: left;
@@ -213,9 +224,11 @@ body {
 
 .social-container {
     display: flex;
+    margin: 15px;
 }
 
 .social-container a {
+    margin: 25px 10px;
     padding: 5px;
     font-size: 30px;
 }
@@ -238,7 +251,7 @@ body {
     .nav {
         display: grid;
         grid-template-columns: 50% 50%;
-        width: 100%;
+        margin: 20px;
     }
 
     .nav-btn {
@@ -256,13 +269,14 @@ body {
 
     .card1 {
         display: block;
-        padding: 30px;
-        width: 95%;
+        margin: 10px;
+        padding: 25px;
     }
 
     .card1-title {
         font-size: 40px;
-        width: 100%;
+        width: 95%;
+        margin: 10px;
     }
 
     .card1-desc {
@@ -270,14 +284,15 @@ body {
     }
 
     .card2-title {
-        font-size: 5rem;
-        width: 95%;
+        font-size: 4.5rem;
+        margin: 80px 60px;
+        text-align: center;
     }
 
     .card2-desc {
+        margin: 10px;
         padding: 0 40px;
         text-align: center;
-        width: 95%;
     }
 
     .profile-pic {
@@ -286,13 +301,15 @@ body {
 
     .profile-pic img {
         width: 12rem;
+        margin-left: 20px;
+        margin-top: 20px;
     }
 
     .about-desc {
         background-color:cornflowerblue;
         padding: 30px;
         border-radius: 20px;
-        width: 95%
+        margin: 0px;
     }
 
     .work1 {
@@ -300,11 +317,7 @@ body {
     }
 
     .work1-desc {
-        width: 101%
-    }
-
-    .work1-site-preview {
-        width: 98%
+        margin: 5px;
     }
 
     .mail-name, .mail-message {
@@ -312,14 +325,36 @@ body {
     }
 
     .social-container {
+        margin: 15px;
     }
 
-    .mail-container {
-        width: 90%
+    .contact-title {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .work1-site-preview {
+        width: 95%;
+        margin: 20px 0px;
+        padding: 20px 10px;
+    }
+
+    .work1-img1 {
+        width: 85%;
+    }
+
+    .social-container {
+        justify-content: center;
+        width: 90%;
     }
 
     .footer-container {
-        width: 90%
+        margin: 20px 15px;
+    }
+
+    .about-title {
+        font-size: 40px;
+        text-align: center;
     }
 
 }
