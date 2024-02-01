@@ -1,467 +1,327 @@
-/* global declarations */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-/* end of global declarations */
 
-
-
-/* global selectors */
 body {
-    background-color: whitesmoke;
+    background-color: aliceblue;
 }
 
-li {
-    list-style: none;
-}
-/* end of global selectors */
-
-
-
-/* class selectors */
-
-/* home wrapper */
-.home-wrapper {
-    display: block;
-}
-
-.pfp-wrapper {
-    text-align: center;
-    padding: 150px 10px 20px 10px;
+.nav {
     display: flex;
     justify-content: center;
-    align-items: center;
+    padding: 5px;
+    margin: 60px 30px 50px 30px;
 }
 
-.pfp-wrapper-inner {
-    border-radius: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    outline: 5px solid #e6e6e6;
-    overflow: hidden;
-    background-color: #d76225;
-}
-
-.pfp-wrapper img {
-    width: 170px;
-    border-radius: 100%;
-    transform: scale(0.9);
-}
-
-.pfp-caption {
-    text-align: center;
-    padding: 10px;
-    margin-bottom: 40px;
-}
-
-.pfp-caption h4 {
-    opacity: 0.6;
-}
-
-.education-card {
-    margin: 50px 20px;
-    border-radius: 10px;
-    /*background-color: #ea9999;*/
-    background-color: #FF7F50;
-    padding: 15px;
-}
-
-.education-title {
-    color: whitesmoke;
-}
-
-.education-title:before {
-    content: "• ";
-}
-
-.experience-card {
-    margin: 50px 20px;
-    border-radius: 10px;
-    /*background-color: #ea9999;*/
-    background-color: lightblue;
-    padding: 15px;
-}
-
-.experience-title {
-    color: whitesmoke;
-}
-
-.experience-title:before {
-    content: "• ";
-}
-
-.educard {
-    display: flex;
-    align-items: stretch;
-    margin: 30px 0;
-}
-
-.edu-line {
-    margin: 0 15px;
-    background: red;
-}
-
-.edu-line hr {
-    border: 1px solid whitesmoke;
-    height: 100%;
-}
-
-.edu-year {
-    height: 30px;
-    width: 70px;
-    background-color: lavender;
-    margin: 0px 20px 5px 5px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 10px;
-}
-
-.edu-year:before {
-  content: "";
-  position: absolute;
-  right: -15px;
-  bottom: 0;
-  width: 0;
-  height: 0;
-  border-left: 15px solid lavender;
-  border-top: 15px solid transparent;
-  border-bottom: 15px solid transparent;
-}
-
-.edu-content h2 {
-    margin-bottom: 3px;
-}
-
-.edu-content h2:before {
-    content: "";
-}
-
-.edu-content p {
-    margin: 10px 0;
-    text-align: justify;
-}
-  
-
-.quote {
-    text-align: center;
-    margin: 20px;
-    padding: 10px;
-}
-
-.bottom-cat {
-    text-align: center;
-}
-
-.bottom-cat img {
-    width: 20%;
-    border-radius: 100%;
-}
-
-.bottom-cat p {
-    display: none;
-}
-
-.social-media {
-    display: flex;
-    justify-content: center;
-    margin: 0 20px 20px 20px;
-}
-
-.social-media li {
+.nav-btn {
     margin: 10px;
-    padding: 15px;
-    height: 30px;
-    width: 30px;
-    background-color: white;
-    font-size: 15px;
-    border-radius: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-/* end of home wrapper */
-
-
-
-/* contact wrapper */
-.contact-wrapper {
-    background-color: whitesmoke;
-    display: none;
-}
-
-.contact-wrapper form {
-    background-color: whitesmoke;
-    width: 100%;
-}
-
-.myform input, .myform textarea, .myform li {
-    padding: 10px;
-    border-radius: 10px;
-    border: 2px solid lightcoral;
-    margin: 10px 0;
-    font-size: 15px;
-}
-
-.myform li {
-    padding: 10px;
-    border-radius: 10px;
-    border: 2px solid black;
-    font-size: 15px;
-}
-
-.myform textarea {
-    width: 250px;
-    height: 150px;
-    resize: none;
-}
-
-.myform textarea::placeholder {
-    font-family: sans;
-}
-
-.myform input, .myform li{
-    width: 250px;
-    height: 50px;
-}
-
-.myform label {
     font-weight: bold;
+    background-color: lavender;
+    padding: 12px 20px;
+    border-radius: 50px;
+    user-select: none;
 }
 
-.myform img {
-    width: 250px;
-    margin: 30px auto;
+.nav-btn:hover {
+    background-color: black;
+    color: white;
 }
 
-.myform h3 {
-    margin: 10px 0;
+.nav-img, .nav-img2 {
+    width: 65px;
+    border-radius: 50%;
+    margin: 0px 20px;
 }
 
-.myform p {
-    margin: 10px 0 30px 0;
-    text-align: justify;
-    color: black;
-    opacity: 0.7;
-}
-
-.myform {
-    padding: 10px 20px;
-    background-color: whitesmoke;
-}
-
-.submit-button {
-    padding: 20px;
-    background-color: white;
+.nav-img2-container {
+    width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
-/* end of contact wrapper */
 
-
-
-/* about wrapper */
-.about-wrapper {
+.nav-img2 {
     display: none;
+    margin: 30px 0px 10px 0px;
+    width: 100px;
 }
 
-.about-wrapper h4 {
-    text-align: center;
-    margin: 50px 0 0 0;
-    color: lightcoral;
-}
-
-.about-wrapper h2 {
-    text-align: center;
-    margin: 10px 0 40px 0;
-    font-size: 30px;
-}
-
-.about-cards {
-    width: 100%;
-}
-
-.about-card-1 {
-    background-color: lavender;
-}
-
-.about-card-2 {
+.card1 {
+    margin: 40px 0px 20px 20px;
     background-color: lightcoral;
+    border-radius: 30px;
+    padding: 50px;
+    display: flex;
+    background: linear-gradient(to top left, lightblue 20%, lightcoral);
 }
 
-.about-card-3 {
-    background-color: lightsalmon;
-}
-
-.about-card {
-    border-radius: 10px;
-    text-align: center;
-    margin: 15px;
-}
-
-.about-card h3 {
-    padding: 60px 30px 20px 30px;
-}
-
-.about-card p {
-    text-align: justify;
-    text-justify: inter-character;
-    padding: 0 30px 30px 30px;
+.card1-desc {
+    display: flex;
+    justify-content: left;
+    font-size: 15px;
+    margin-left: 10px;
     opacity: 0.8;
 }
 
-.about-card img {
-    width: 250px;
-    margin: 20px 20px 50px 20px;
-}
-/* end of about wrapper */
-
-/* end of class selectors */
-
-
-
-/* psudo classes and properties */
-.about-button:hover {
-    
+.card1-title {
+    font-size: 4rem;
 }
 
-.menu-button:hover {
-    outline: 2px solid black;
+.card2 {
+    padding-bottom: 100px;
 }
 
-.social-media li:hover {
-    background-color: black;
-}
-
-.twitter:hover, .facebook:hover {
-    color: lightskyblue;
-}
-
-.instagram:hover {
-    color: red;
-}
-
-.whatsapp:hover {
-    color: lightgreen;
-}
-/* end of psudo classes and properties */
-
-
-
-/* media queries */
-@media(min-width: 480px) {
-    .home-cards {
-        display: grid;
-        grid-template-columns: 50% 50%;
-    }
-    
-    .contact-wrapper form {
-        padding: 20px;
-    }
-    
-    .bottom-cat img {
-        width: 5%;
-    }
-    
-    .about-cards {
-        display: grid;
-        grid-template-columns: 50% 50%;
-    }
-}
-/* end of media queries */
-
-
-
-/* keyframes */
-@keyframes IncreaseImgHeight {
-    100% {
-        height: 150px;
-    }
-}
-
-
-@keyframes IncreaseBottomPad {
-    100% {
-        padding-bottom: 10px;
-    }
-}
-/* end of keyframes */
-
-
-
-/* id selectors */
-#bottom-cat:hover #bottom-cat-caption {
-    display: block;
-}
-/* end of id selectors */
-
-
-
-/* other uncategorised */
-.menu-wrapper {
-    position: fixed;
-    right: 10px;
-    bottom: 10px;
-}
-
-.menu {
-    display: flex;
-}
-
-.menu-icon {
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
-}
-
-.menu li {
-    height: 50px;
-    width: 50px;
-    margin: 10px;
-    background-color: white;
+.card2-title {
     display: flex;
     justify-content: center;
+    text-align: center;
+    font-size: 100px;
+    padding: 25px;
+}
+
+.card2-desc {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: black;
+}
+
+
+.profile-pic {
+    display: flex;
     align-items: center;
-    border-radius: 10px;
-    font-size: 25px;
+    justify-content: right;
+    width: 50%;
+    margin: 10px;
 }
 
-.slider {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
-    transform-origin: bottom right;
-    overflow: hidden;
-    height: 70px;
-    width: 70px;
-}
-
-.slider li {
+.profile-pic img {
+    width: 40%;
+    border-radius: 50%;
     padding: 20px;
-    height: 50px;
-    width: 50px;
-    position: absolute;  
 }
 
-.about-button {
-    top: 0;
-    left: 0;
+.about-container, .work-container {
+    margin: 60px 20px 80px 20px;
 }
 
-.home-button {
-    bottom: 0;
-    left: 0;
+.about-title, .work-title {
+    text-align: left;
+    margin: 25px;
+    font-size: 60px;
+    padding-top: 20px;
 }
 
-.contact-button {
-    top: 0;
-    right: 0;
-}      
+.about-desc {
+    margin: 20px;
+    font-size: 25px;
+    text-align: justify;
+}
 
-/* end of other uncategorised */
+.name-container {
+    width: 50%;
+}
 
+.work1 {
+    display: flex;
+}
+
+.work1-site-preview {
+    background-color: lightcoral;
+    text-align: center;
+    width: fit-content;
+    padding: 20px;
+    margin: 40px 20px 40px 20px;
+    border-radius: 20px;
+}
+
+.work1-title {
+    margin: 20px;
+}
+
+.work1-desc {
+    margin: 45px 20px 40px 20px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.work1-img1 {
+    width: 25rem;
+}
+
+.work1-img1 {
+    margin: 0px 20px;
+    border: 5px solid lightslategray;
+    border-radius: 20px;
+    scroll-snap-type: y mandatory;
+}
+
+.contact-container {
+    margin: 10px 0px 80px 0px;
+}
+
+.contact-title {
+    margin: 20px;
+    font-size: 60px;
+    padding: 20px;
+}
+
+.mail-container {
+    padding: 40px;
+    margin: 20px;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+}
+
+.mail-container label {
+    font-size: 20px;
+}
+
+.mail-name, .mail-message {
+    width: 25%;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border: none;
+}
+
+.mail-name::placeholder, .mail-message::placeholder {
+    padding: 10px;
+}
+
+.mail-name {
+    height: 30px;
+    border-radius: 10px;
+}
+
+.mail-message {
+    height: 150px;
+    border-radius: 15px;
+    resize: none;
+}
+
+.mail-btn {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: aliceblue;
+}
+
+.mail-btn:hover {
+    background-color: coral;
+}
+
+.footer-container {
+    margin: 20px;
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding: 60px 40px 20px 40px;
+    border-radius: 20px;
+}
+
+.footer-container p {
+    opacity: 0.9;
+}
+
+.social-container {
+    display: flex;
+    margin: 15px;
+}
+
+.social-container a {
+    margin: 25px 10px;
+    padding: 5px;
+    font-size: 30px;
+}
+
+.twitter {
+    color: #1DA1F2;
+}
+
+.facebook {
+    color: #1877F2;
+}
+
+.instagram {
+    color: orangered;
+}
+
+/* media queries */
+@media screen and (max-width: 720px) {
+
+    .nav {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin: 20px;
+    }
+
+    .nav-btn {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .nav-img {
+        display: none;
+    }
+
+    .nav-img2 {
+        display: block;
+    }
+
+    .card1 {
+        display: block;
+        padding: 30px;
+    }
+
+    .card1-title {
+        font-size: 40px;
+        width: 100%;
+    }
+
+    .card1-desc {
+        width: 200%;
+    }
+
+    .card2-title {
+        font-size: 5rem;
+        margin: 80px 20px;
+    }
+
+    .card2-desc {
+        margin: 10px;
+        padding: 0 40px;
+        text-align: center;
+    }
+
+    .profile-pic {
+        justify-content: center;
+    }
+
+    .profile-pic img {
+        width: 12rem;
+        margin-left: -70px;
+        margin-top: 20px;
+    }
+
+    .about-desc {
+        background-color:cornflowerblue;
+        padding: 30px;
+        border-radius: 20px;
+    }
+
+    .work1 {
+        display: block;
+    }
+
+    .work1-desc {
+        margin: 30px;
+    }
+
+    .mail-name, .mail-message {
+        width: 100%;
+    }
+
+    .social-container {
+        margin: 15px;
+    }
+
+}

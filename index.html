@@ -1,231 +1,142 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    
-    <title>Not your Vikram</title>
+    <title>This is Vikram Vishwakarma</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
 
-<body onscroll="close_slide_menu();">
-    
-    <!-- home section -->
-    <div onclick="close_slide_menu()" class="home-wrapper">
-        
-        <!-- profile image -->
-        <div class="pfp-wrapper">
-            <div class="pfp-wrapper-inner">
-                <img class="pfp-img" src="res/profile.png" alt=""></img>
-            </div>
+<body>
+    <div class="container">
+        <div class="nav-img2-container" >
+            <img class="nav-img2" src="res/logo.png" />
         </div>
         
-        <!-- profile image caption - name & status -->
-        <div class="pfp-caption">
-            <h3>VIKRAM &nbsp;VISHWAKARMA</h3>
-            <h4>STUDENT | <span style="color: orangered;">WEB</span> DEV</h4>
+        <div class="nav">
+            <div onclick="document.getElementById('').scrollIntoView({behavior: 'smooth'})" class="nav-btn home">HOME</div>
+            <div onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'})" class="nav-btn about">ABOUT</div>
+            <img class="nav-img" src="res/logo.png" />
+            <div onclick="document.getElementById('work').scrollIntoView({behavior: 'smooth'})" class="nav-btn work">WORK</div>
+            <div onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})" class="nav-btn contact">CONTACT</div>
         </div>
-    
-        <!-- quote to keep you motivated -->
-        <div class="quote">
-            <p>"Experience is the name everyone gives to their mistakes. – <span style="font-weight: bolder;">Oscar Wilde</span>"</p>
-        </div>
-        
-        <!-- catagorised information dialogs -->
-        <div class="home-cards">
-            <div class="education-card">
-                <h3 class="education-title">Education</h3>
-                
-            <div class="educard-1 educard">
-                <div class="edu-year">
-                    <b>2018</b>
-                </div>
-                <div class="edu-line">
-                    <hr></hr>
-                </div>
-                <div class="edu-content">
-                    <h2>SSC</h2>
-                    <h4>Janta Vidyalaya, India</h3>
-                    <p>First boards (10th), Lots of fun as well as lots of pressure. I did great and earned 76.40%</p>
-                </div>
+
+        <div class="card1 card">
+            <div class="name-container">
+                <h1 class="card1-title card-title">VIKRAM<br>VISHWAKARMA</h1>
+                <p class="card1-desc card-desc">Experience is the name everyone gives to their mistakes. <br>- Oscar Wilde
+                </p>
             </div>
-            
-            <div class="educard-2 educard">
-                <div class="edu-year">
-                    <b>2020</b>
-                </div>
-                <div class="edu-line">
-                    <hr></hr>
-                </div>
-                <div class="edu-content">
-                    <h2>HSC</h2>
-                    <h4>Janta Vidyalaya, India</h3>
-                    <p>Hectic year because of COVID-19 Pandemic but still completed 12th with a score of 79%.</p>
-                </div>
-            </div>
-            
-            <div class="educard-3 educard">
-                <div class="edu-year">
-                    <b>2021</b>
-                </div>
-                <div class="edu-line">
-                    <hr></hr>
-                </div>
-                <div class="edu-content">
-                    <h2>BSC (CS) <br> First Year</h2>
-                    <h4>K.T.H.M College, Nashik</h3>
-                    <p>Half sem was still in the covid era. Started making new friends in a new college, wasn't happy because of the new place environment didn't suit me, but with time it all sorted out later or sooner !</p>
-                </div>
-            </div>
-            
-            <div class="educard-4 educard">
-                <div class="edu-year">
-                    <b>2022</b>
-                </div>
-                <div class="edu-line">
-                    <hr></hr>
-                </div>
-                <div class="edu-content">
-                    <h2>BSC (CS)<br>Second Year</h2>
-                    <h4>K.T.H.M College, Nashik</h3>
-                    <p>The best year so far. The study load was less than the first year. Enjoyed with friends, travelled, Had lots of fun.</p>
-                </div>
-            </div>
-            
-            <div class="educard-4 educard">
-                <div class="edu-year">
-                    <b>2023</b>
-                </div>
-                <div class="edu-line">
-                    <hr></hr>
-                </div>
-                <div class="edu-content">
-                    <h2>BSC (CS)<br>Third Year</h2>
-                    <h4>K.T.H.M College, Nashik</h3>
-                    <p>Ongoing year, It was fast but half of the sem just passed in a blink of an eye. Enjoying the last moments of my college life ! Now i can see my foot paths when i turn back !</p>
-                </div>
-            </div>
-            </div>
-            
-            <div class="experience-card">
-                <h3 class="experience-title">Skills & Experience</h3>
-                
-                <div class="educard-5 educard">
-                    <div class="edu-year">
-                        <b>2020</b>
-                    </div>
-                    
-                    <div class="edu-line">
-                        <hr></hr>
-                    </div>
-                    
-                    <div class="edu-content">
-                        <h2>Python Introduction</h2>
-                        <h4>Self Learner</h3>
-                        <p>Due to covid, I got a lot of time to think like what can i be after school life. That's when i started python programming, it was easy to understand.</p>
-                    </div>
-                </div>
-                
-                
-                <div class="educard-6 educard">
-                    <div class="edu-year">
-                        <b>2021</b>
-                    </div>
-                    
-                    <div class="edu-line">
-                        <hr></hr>
-                    </div>
-                    
-                    <div class="edu-content">
-                        <h2>C Programming</h2>
-                        <h4>College Learned</h3>
-                        <p>The intrest in programming world led me to take admission in computer science bachelor's degree. It was the best decision i could take. College introduced the first programming language `C Language` to us. It was hard to understand for the people with less interest in the programming area, whereas it was like butter on bread for me !</p>
-                    </div>
-                </div>
-                
+
+            <div class="profile-pic">
+                <img src="res/vikram_aliceblue.png" />
             </div>
         </div>
-    
-        <div id="bottom-cat" class="bottom-cat">
-            <img src="res/cat.gif" alt=""></img>
-            <p id="bottom-cat-caption">Hey, No touching me!</p>
+
+        <div id="card2" class="card2 card">
+            <h1 class="card2-title card-title">VISUAL & WEB DESIGNER<br>BASED IN INDIA</h1>
+            <p class="card2-desc card-desc">There is always a reason behind everything, everywhere.</p>
         </div>
-        
-        <div class="social-media">
-            <li onclick="open_url('twitter')" class="bi-twitter twitter"></li>
-            <li onclick="open_url('facebook')" class="bi-facebook facebook"></li>
-            <li onclick="open_url('whatsapp')" class="bi-whatsapp whatsapp"></li>
-            <li onclick="open_url('instagram')" class="bi-instagram instagram"></li>
-        </div>
-    </div> <!-- end of home-wrapper -->
-    
-    
-    <!-- contact wrapper -->
-    <div onclick="close_slide_menu()" class="contact-wrapper">
-        <form method="post">
-            <div class="myform">
-                <img src="res/contact_us.png" alt=""></img>
+
+        <div id="about" class="about-container">
+            <h1 class="about-title">ABOUT ME</h1>
+            <p class="about-desc">
                 <br>
-                <h3>How can i help you ?</h3>
-                <p>It looks like you need some help regarding something that is related to me, You can ask me through a mail.</p>
-                
-                <label for="name">Name</label>
-                <br>
-                <input class="name" placeholder="your name" type="text" name="name" required>
-            
+                I'm Vikram Vishwakama, a web enthusiast and a fervent student in the captivating realm of computer
+                science. My journey unfolds at the intersection of pixels and possibilities, where lines of code become
+                gateways to immersive digital experiences.
                 <br><br>
-            
-                <label for="message">Message</label>
-                <br>
-                <textarea class="message" placeholder="Your message" name="message"></textarea>
-                
-                <br><br>
-                
-                <li oncopy="return false" onclick="compose_mail()" class="submit-button" type="button" value="submit">compose mail</li>
-            </div>
-        </form>
-    </div> <!-- contact wrapper end -->
-    
-    
-    
-    <!-- about wrapper -->
-    <div onclick="close_slide_menu()" class="about-wrapper">
-        <h4>About Me</h4>
-        <h2>Want to know More ?</h2>
-        <div class="about-cards">
-            <div class="about-card about-card-1">
-                <h3>A proper self introductory ;)</h3>
-                <p>Hey stalker, It's nice to meet you. So I am 22 year old rookie who has dreams to be a refined web|software developer. My name is Vikram Vishwakarma & I live somewhere in India, In a city called Nashik, Maharashtra. I am a Third year CS student who wants to be a Software/App/Web Developer & Graphic/UI/UX Designer. Yes I know its a lot. But life becomes boring if there are no challenges to face on, that's why its important for me to ride on this rollercoaster. It will be either lots of fun or a nightmare, doesn't matter.</p>
-                <img src="res/about_thoughts.png" alt=""></img>
-            </div>
-            
-            <div class="about-card about-card-2">
-                <h3>Experiences <br> of a cs student life !)</h3>
-                <p>In the starting, I was like the other people who had the same interest in cs course, i started to learn from everywhere i could've. Later when it felt like there is no use & results from doing it in a unordered way. Then i asked some people who were already in that field and started to learn things which were necessary and important for me. Like the Types of Programming Languages, Building Logic, Used Applications, Making visuals by using web development languages, doing projects to refine my skills and so on.</p>
-            </div>
-            
-            <div class="about-card about-card-3">
-                <h3>Here comes the details about this website, Free or Paid /></h3>
-                <p>So this website is hosted by Github Pages (which is used for documentation purpose) & for the domain part i got it free on is-a.dev. I made this website lightweight and added the Material You theme in it so it kinda looks cool & colourful ! I am always available for advices related to this website, so you can tell me by sending a mail about it if you want !!;)</p>
+                As a passionate web developer, I relish the art of transforming concepts into visually appealing and
+                functional realities. Currently navigating the exciting waters of computer science education, I embrace
+                the challenges that come with continuous learning, always seeking to elevate my skills.
+                Join me on this odyssey where technology meets creativity, and let's build something extraordinary
+                together.
+            </p>
+        </div>
+
+        <div id="work" class="work-container" >
+            <h1 class="work-title">MY WORK</h1>
+            <p class="about-desc">
+                I have worked on some interesting projects to learn the flexibility and the capability of my skills, some of them are mentioned below, take your time to read them.
+            </p>
+
+            <div class="work">
+                <div class="work1">
+                    <div class="work1-site-preview">
+                        <h1 class="work1-title">Dynamic Homepage</h1>
+                    <iframe class="work1-img1" src="http://vikram.is-a.dev/dynamic-homepage" width="100%" height="400" frameborder="0"></iframe>
+                    </div>
+                    
+                    <p class="work1-desc">
+                        Welcome to Dynamic Homepage, where the world of search is unified for your convenience! Say goodbye to toggling between different search engines and social media platforms. Our innovative service brings together the power of Google, Instagram, Twitter, and many more within a single, user-friendly interface.
+                        <br><br>
+                        
+                        <b>1. Unified Search Experience:</b>
+                        
+                        Access the most popular search engines and social media platforms all in one place.
+                        Simplify your online exploration with a centralized search hub that caters to your diverse search needs.
+                        <br><br>
+
+                        <b>2. Customized Search Buttons:</b>
+                        
+                        Tailor your searches effortlessly with dedicated buttons for Google, Instagram, Twitter, and more.
+                        Instantly switch between platforms with a single click, saving you time and streamlining your online experience.
+                        <br><br>
+
+                        <b>3. Efficient and Time-Saving:</b>
+                        
+                        No need to open multiple tabs or apps; our dynamic homepage consolidates everything for you.
+                        Enhance productivity by eliminating the need to navigate between various search interfaces.
+                        <br><br>
+
+                        <b>4. Intuitive Design:</b>
+                        
+                        Enjoy a clean and intuitive design that prioritizes user experience.
+                        Simplified navigation ensures that even new users can seamlessly navigate and harness the full potential of Dynamic Homepage.
+                        <br><br>
+                        
+                        <b>5. Privacy and Security:</b>
+                        
+                        Rest easy knowing that your searches are secure and private.
+                        Dynamic Homepage prioritizes user privacy, providing a safe and reliable environment for your online activities.
+                    </p>
+                </div>
             </div>
         </div>
-    </div>
-    <!-- about wrapper ends here -->
+
+        <div id="contact" class="contact-container">
+            <h1 class="contact-title">CONTACT ME</h1>
+            <div class="contact-main">
+                <div class="mail-container">
+                    <label for="name">Name</label>
+                    <br>
+                    <input placeholder="Enter Name" class="mail-name" type="text" name="name" />
+                    <br><br>
     
+                    <label for="message">Message</label>
+                    <br>
+                    <textarea placeholder="Write Something ..." class="mail-message" type="text" name="message" ></textarea>
     
-    <!-- absolute items -->
-    <div class="menu-wrapper">
-        <div class="menu">
-            <div class="slider">
-                <li class="about-button menu-button bi-person-vcard" onclick="open_tabs('.about-wrapper')"></li>
-                <li class="home-button menu-button bi-house" onclick="open_tabs('.home-wrapper')"></li>
-                <li class="contact-button menu-button bi-send" onclick="open_tabs('.contact-wrapper')"></li>
+                    <br><br>
+                    <input class="mail-btn" type="submit" value="compose mail" />
+                </div>
+                <div class="social-container">
+                    <a href="https://instagram.com/vikramisdev"class="instagram bi-instagram" ></a>
+                    <a href="https://twitter.com/vkram_v18" class="twitter bi-twitter" ></a>
+                    <a href="" class="facebook bi-facebook" ></a>
+                </div>
             </div>
-            
-            <li onclick="open_slide_menu()" class="menu-icon bi-menu-button-wide-fill"></li>
-        </div>    
+        </div>
+
+        <footer class="footer-container">
+            <p>
+                © 2020 Vikram Vishwakama. All Rights Reserved.
+                <br><br>
+                Unauthorized copying or reproduction of this material is prohibited.
+            </p>
+        </footer>
     </div>
-    
-    <script src="script.js"></script>
 </body>
+
 </html>
