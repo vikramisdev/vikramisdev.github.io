@@ -116,15 +116,15 @@
                 <div class="mail-container">
                     <label for="name">Name</label>
                     <br>
-                    <input placeholder="Enter Name" class="mail-name" type="text" name="name" />
+                    <input placeholder="Enter Name" id="mail-name" class="mail-name" type="text" name="name" required/>
                     <br><br>
     
                     <label for="message">Message</label>
                     <br>
-                    <textarea placeholder="Write Something ..." class="mail-message" type="text" name="message" ></textarea>
+                    <textarea placeholder="Write Something ..." id="mail-message" class="mail-message" type="text" name="message" required></textarea>
     
                     <br><br>
-                    <input class="mail-btn" type="submit" value="compose mail" />
+                    <input class="mail-btn" type="submit" value="compose mail" onclick="composeMail()" />
                 </div>
                 <div class="social-container">
                     <a href="https://instagram.com/vikramisdev"class="instagram bi-instagram" target="_blank"></a>
@@ -142,6 +142,8 @@
             </p>
         </footer>
     </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
