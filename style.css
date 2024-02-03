@@ -1,9 +1,14 @@
 * {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
 }
 
 body {
     background-color: aliceblue;
+}
+
+.container {
+    margin: 25px;
 }
 
 .nav {
@@ -46,7 +51,7 @@ body {
 }
 
 .card1 {
-    margin: 40px 0px 20px 20px;
+    margin-top: 100px;
     background-color: lightcoral;
     border-radius: 30px;
     padding: 50px;
@@ -58,7 +63,6 @@ body {
     display: flex;
     justify-content: left;
     font-size: 15px;
-    margin-left: 10px;
     opacity: 0.8;
 }
 
@@ -76,6 +80,7 @@ body {
     text-align: center;
     font-size: 100px;
     padding: 25px;
+    margin: 60px 0px 10px 0px;
 }
 
 .card2-desc {
@@ -100,19 +105,14 @@ body {
     padding: 20px;
 }
 
-.about-container, .work-container {
-    margin: 60px 20px 80px 20px;
-}
-
 .about-title, .work-title {
     text-align: left;
-    margin: 25px;
-    font-size: 60px;
-    padding-top: 20px;
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 10px;
 }
 
 .about-desc {
-    margin: 20px;
     font-size: 25px;
     text-align: justify;
 }
@@ -122,6 +122,7 @@ body {
 }
 
 .work1 {
+    margin: 60px 0px 50px 0px;
     display: flex;
 }
 
@@ -130,7 +131,6 @@ body {
     text-align: center;
     width: fit-content;
     padding: 20px;
-    margin: 40px 20px 40px 20px;
     border-radius: 20px;
 }
 
@@ -139,9 +139,9 @@ body {
 }
 
 .work1-desc {
-    margin: 45px 20px 40px 20px;
     font-size: 20px;
     text-align: justify;
+    margin: 25px;
 }
 
 .work1-img1 {
@@ -149,25 +149,18 @@ body {
 }
 
 .work1-img1 {
-    margin: 0px 20px;
     border: 5px solid lightslategray;
     border-radius: 20px;
     scroll-snap-type: y mandatory;
 }
 
-.contact-container {
-    margin: 10px 0px 80px 0px;
-}
-
 .contact-title {
-    margin: 20px;
-    font-size: 60px;
-    padding: 20px;
+    font-size: 50px;
+    margin: 100px 0px 20px 0px;
 }
 
 .mail-container {
     padding: 40px;
-    margin: 20px;
     background-color: cornflowerblue;
     border-radius: 20px;
 }
@@ -212,12 +205,12 @@ body {
 }
 
 .footer-container {
-    margin: 20px;
     background-color: black;
     color: white;
     text-align: left;
     padding: 60px 40px 20px 40px;
     border-radius: 20px;
+    margin: 100px 0px 10px 0px;
 }
 
 .footer-container p {
@@ -226,11 +219,10 @@ body {
 
 .social-container {
     display: flex;
-    margin: 15px;
 }
 
 .social-container a {
-    margin: 25px 10px;
+    margin: 20px 10px 0px 10px;
     padding: 5px;
     font-size: 30px;
 }
@@ -271,116 +263,65 @@ body {
 
     .card1 {
         display: block;
-        margin: 10px;
         padding: 25px;
     }
 
-    .card1-title {
-        font-size: 20px;
-        width: 95%;
-        margin: 10px;
-    }
-
-    .card1-desc {
-        width: 200%;
-    }
-
-    .card2-title {
-        font-size: 3.6rem;
-        margin: 80px 60px;
-        text-align: center;
-    }
-
-    .card2-desc {
-        margin: 10px;
-        padding: 0 40px;
-        text-align: center;
-    }
-
     .profile-pic {
-        justify-content: center;
+        display: flex;
+        justify-content: left;
+        margin: 20px 0px;
+        width: fit-content;
     }
 
     .profile-pic img {
-        width: 12rem;
-        margin-left: 50px;
-        margin-top: 20px;
+        padding: 0px;
     }
 
-    .about-desc {
-        background-color:cornflowerblue;
-        padding: 20px;
-        border-radius: 20px;
-        margin: 0px;
+    .card1-title {
+        font-size: 30px;
+        margin: 15px 0px;
     }
 
-    .about-container {
-        margin: 0px;
+    .card2-title {
+       font-size: 3.8rem;
     }
 
-    .work-title {
+    .about-title, .work-title, .contact-title {
         font-size: 40px;
         text-align: center;
     }
 
-    .work-container {
-        margin: 0px;
-        padding: 10px;
+    .about-desc, .work-about-desc {
+        background-color: cornflowerblue;
+        border-radius: 20px;
+        padding: 15px;
+    }
+
+    .work1-site-preview {
+        width: 90%;
+    }
+
+    .work1-img1 {
+        width: 95%;
+    }
+
+    .work1-desc {
+        margin: 40px 0px;
     }
 
     .work1 {
         display: block;
     }
 
-    .work1-desc {
-        margin: 10px;
-    }
-
     .mail-name, .mail-message {
-        width: 100%;
-    }
-
-    .social-container {
-        margin: 15px;
-    }
-
-    .contact-title {
-        font-size: 30px;
-        text-align: center;
-    }
-
-    .work1-site-preview {
         width: 95%;
-        margin: 20px 0px;
-        padding: 20px 10px;
-    }
-
-    .work1-img1 {
-        width: 85%;
     }
 
     .social-container {
         justify-content: center;
-        width: 90%;
     }
 
-    .footer-container {
-        margin: 20px 10px;
-        padding: 40px 20px 20px 20px;
+    .social-container a {
+        margin: 30px 10px 0px 10px;
     }
-
-    .about-title {
-        font-size: 40px;
-        text-align: center;
-    }
-
-    .contact-container {
-        padding: 10px;
-    }
-
-    .mail-container {
-        margin: 0px;
-        padding: 20px;
-    }
-
 }
