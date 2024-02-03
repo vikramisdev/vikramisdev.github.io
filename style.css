@@ -184,7 +184,7 @@ body {
 }
 
 .mail-name::placeholder, .mail-message::placeholder {
-    padding: 10px;
+    padding: 5px;
 }
 
 .mail-name {
@@ -374,6 +374,11 @@ body {
     }
 
     .contact-container {
+        padding: 10px;
+    }
+
+    .mail-container {
+        margin: 0px;
         padding: 10px;
     }
 
