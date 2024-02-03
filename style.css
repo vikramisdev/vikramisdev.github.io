@@ -258,11 +258,13 @@ body {
         display: grid;
         grid-template-columns: 50% 50%;
         margin: 20px;
+        position: static;
+        background-color: transparent;
     }
 
     .nav-btn {
         text-align: center;
-        padding: 15px 30px;
+        padding: 15px 40px;
     }
 
     .nav-img {
@@ -276,6 +278,7 @@ body {
     .card1 {
         display: block;
         padding: 25px;
+        margin-top: 30px;
     }
 
     .profile-pic {
@@ -287,6 +290,7 @@ body {
 
     .profile-pic img {
         padding: 0px;
+        width: 12rem;
     }
 
     .card1-title {
@@ -294,12 +298,12 @@ body {
         margin: 15px 0px;
     }
 
-    .card1-desc {
-        text-align: center;
-    }
-
     .card2-title {
        font-size: 3.8rem;
+    }
+
+    .card2-desc {
+        text-align: center;
     }
 
     .about-title, .work-title, .contact-title {
@@ -339,5 +343,14 @@ body {
 
     .social-container a {
         margin: 30px 10px 0px 10px;
+    }
+
+    .nav-container {
+        margin: auto;
+        background-color: transparent;
+    }
+
+    .footer-container {
+        padding: 40px 20px 20px 20px;
     }
 }
