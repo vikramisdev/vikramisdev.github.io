@@ -365,7 +365,7 @@ body {
     }
 
     .footer-container {
-        margin: 20px 15px;
+        margin: 20px 10px;
         padding: 40px 20px 20px 20px;
     }
 
@@ -380,7 +380,7 @@ body {
 
     .mail-container {
         margin: 0px;
-        padding: 10px;
+        padding: 20px;
     }
 
 }
