@@ -319,7 +319,8 @@ body {
     }
 
     .work-title {
-        font-size: 30px;
+        font-size: 40px;
+        text-align: center;
     }
 
     .work-container {
