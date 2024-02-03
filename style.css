@@ -190,12 +190,14 @@ body {
 .mail-name {
     height: 30px;
     border-radius: 10px;
+    padding: 10px;
 }
 
 .mail-message {
     height: 150px;
     border-radius: 15px;
     resize: none;
+    padding: 10px;
 }
 
 .mail-btn {
@@ -274,7 +276,7 @@ body {
     }
 
     .card1-title {
-        font-size: 40px;
+        font-size: 20px;
         width: 95%;
         margin: 10px;
     }
@@ -284,7 +286,7 @@ body {
     }
 
     .card2-title {
-        font-size: 4.5rem;
+        font-size: 4rem;
         margin: 80px 60px;
         text-align: center;
     }
@@ -301,15 +303,28 @@ body {
 
     .profile-pic img {
         width: 12rem;
-        margin-left: 20px;
+        margin-left: 30px;
         margin-top: 20px;
     }
 
     .about-desc {
         background-color:cornflowerblue;
-        padding: 30px;
+        padding: 20px;
         border-radius: 20px;
         margin: 0px;
+    }
+
+    .about-container {
+        margin: 0px;
+    }
+
+    .work-title {
+        font-size: 30px;
+    }
+
+    .work-container {
+        margin: 0px;
+        padding: 10px;
     }
 
     .work1 {
@@ -329,7 +344,7 @@ body {
     }
 
     .contact-title {
-        font-size: 40px;
+        font-size: 30px;
         text-align: center;
     }
 
@@ -350,11 +365,16 @@ body {
 
     .footer-container {
         margin: 20px 15px;
+        padding: 40px 20px 20px 20px;
     }
 
     .about-title {
         font-size: 40px;
         text-align: center;
+    }
+
+    .contact-container {
+        padding: 10px;
     }
 
 }
