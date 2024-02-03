@@ -14,11 +14,11 @@ body {
 .nav {
     display: flex;
     justify-content: center;
-    padding: 10px 5px;
+    padding: 10px 15px;
     background-color: rgba(173, 216, 230, 0.9);
     backdrop-filter: blur(3px);
     width: fit-content;
-    border-radius: 40px;
+    border-radius: 50px;
     position: fixed;
 }
 
