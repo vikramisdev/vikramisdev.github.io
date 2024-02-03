@@ -262,7 +262,7 @@ body {
 
     .nav-btn {
         text-align: center;
-        padding: 15px 25px;
+        padding: 15px 30px;
     }
 
     .nav-img {
@@ -292,6 +292,10 @@ body {
     .card1-title {
         font-size: 30px;
         margin: 15px 0px;
+    }
+
+    .card1-desc {
+        text-align: center;
     }
 
     .card2-title {
