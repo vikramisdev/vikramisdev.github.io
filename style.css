@@ -8,14 +8,26 @@ body {
 }
 
 .container {
-    margin: 25px;
+    margin: 20px;
 }
 
 .nav {
     display: flex;
     justify-content: center;
-    padding: 5px;
-    margin: 60px 30px 50px 30px;
+    padding: 10px 5px;
+    background-color: rgba(173, 216, 230, 0.9);
+    backdrop-filter: blur(3px);
+    width: fit-content;
+    border-radius: 40px;
+    position: fixed;
+}
+
+.nav-container {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin: 20px 30px 50px 30px;
 }
 
 .nav-btn {
@@ -51,7 +63,7 @@ body {
 }
 
 .card1 {
-    margin-top: 100px;
+    margin-top: 15rem;
     background-color: lightcoral;
     border-radius: 30px;
     padding: 50px;
