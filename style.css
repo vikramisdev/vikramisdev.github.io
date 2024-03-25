@@ -193,6 +193,7 @@
     height: 50px;
     width: 130px;
     border-radius: 15px;
+    background: rgba(209, 221, 245, 0.9);
 }
 
 .feedback-container button:hover {
@@ -271,12 +272,26 @@
   .text {
       color: white;
   }
-
-  .navbar-container-btn {
-      background: white;
-  }
-
+  
   .nav-icon {
+      color: white;
+  }
+  
+  .navbar-container-btn {
+      background: #1a1a1a;
+  }
+  
+  .footer p {
       color: black;
   }
+  
+  #mail-name, #mail-message {
+      background: #272727;
+  }
+  
+  .feedback-container-compose-btn {
+      background: #c1c1c1;
+  }
 }
+
+
