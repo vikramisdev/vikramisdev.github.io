@@ -68,6 +68,11 @@
 
 .profile-container-quote {
     font-size: 15px;
+    opacity: 0.6;
+}
+
+.profile-container-quote::after {
+    content: "- Oscar Wilde";
 }
 
 .branding-container {
@@ -76,7 +81,7 @@
 }
 
 .brand-container-title {
-    font-size: 70px;
+    font-size: 68px;
     color: white;
 }
 
@@ -98,9 +103,10 @@
 
 .about-container-description {
     color: white;
-    text-align: left;
+    text-align: justify;
     font-size: 16px;
-    opacity: 0.6;
+    opacity: 0.7;
+    padding-top: 40px;
 }
 
 .about-container-skills-1,
@@ -122,9 +128,8 @@
     text-align: left;
     margin: 20px 0 0 0;
     width: calc(100%) - 20px;
-    padding: 10px;
-    border-radius: 10px;    
-    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    border-radius: 10px;
 }
 
 .about-container-skills-1-content  {
@@ -157,20 +162,22 @@
 
 .work-container-work-1 {
     margin: 30px 0 0 0;
+    width: calc(100%) - 20px;
 }
 
 .work-container-work-1 iframe {
     border: 3px solid black;
     margin: 20px 0;
-    width: 100%;
+    width: 96%;
     height: 400px;
     border-radius: 20px;
 }
 
 .feedback-container {
     text-align: left;
-    margin: 30px 0 0 0;
+    margin-top: 30px;
     color: white;
+    width: calc(100%) - 20px;
 }
 
 .feedback-container input,
@@ -257,7 +264,7 @@
     }
     
     .profile-container-image img {
-        width: 15rem;
+        width: 12rem;
     }
     
     .feedback-container input,
