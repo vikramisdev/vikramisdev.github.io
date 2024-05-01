@@ -15,3 +15,29 @@ function composeMail() {
         message.value = '';
     }
 }
+
+// jQuery
+var lastTouchY = 0;
+
+$(window).on('touchmove', function(event) {
+    var currentTouchY = event.originalEvent.touches[0].clientY;
+    
+    if (currentTouchY > lastTouchY) {
+        // Scrolling down
+        $(".navbar-container").stop().animate({
+            bottom: "0px"
+        }, 500); // Animation duration: 500 milliseconds (half a second)
+    } else {
+        // Scrolling up
+        $(".navbar-container").stop().animate({
+            bottom: "-120px"
+        }, 500); // Animation duration: 500 milliseconds (half a second)
+    }
+    
+    lastTouchY = currentTouchY;
+});
+
+// navigation helper
+function scrollToPage(page) {
+document.getElementById(page).scrollIntoView({behavior: 'smooth'});
+}
