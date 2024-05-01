@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -105,17 +106,17 @@ Unauthorized copying or reproduction of this website is prohibited.</p>
     
     <!-- navigation bar for desktop & mobile -->
     <div class="navbar-container">                        
-                <div onclick="document.getElementById('home').scrollIntoView({behavior: 'smooth'})" class="navbar-container-btn home">
+                <div onclick="scrollToPage('home')" class="navbar-container-btn home">
                     <li class="nav-icon bi-house"></li>
                 </div>
-                <div onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'})" class="navbar-container-btn about">
+                <div onclick="scrollToPage('about')" class="navbar-container-btn about">
                     <li class="nav-icon bi-person-check"></li>
                 </div>
                 <img class="navbar-container-image" src="res/logo.png" />
-                <div onclick="document.getElementById('work').scrollIntoView({behavior: 'smooth'})" class="navbar-container-btn work">
+                <div onclick="scrollToPage('work')" class="navbar-container-btn work">
                     <li class="nav-icon bi-briefcase"></li>
                 </div>
-                <div onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})" class="navbar-container-btn contact">
+                <div onclick="scrollToPage('contact')" class="navbar-container-btn contact">
                     <li class="nav-icon bi-send"></li>
                 </div>
         </div>      
