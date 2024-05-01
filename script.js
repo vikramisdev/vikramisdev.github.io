@@ -26,12 +26,12 @@ $(window).on('touchmove', function(event) {
         // Scrolling down
         $(".navbar-container").stop().animate({
             bottom: "0px"
-        }, 500); // Animation duration: 500 milliseconds (half a second)
+        }, 200); // Animation duration: 500 milliseconds (half a second)
     } else {
         // Scrolling up
         $(".navbar-container").stop().animate({
             bottom: "-120px"
-        }, 500); // Animation duration: 500 milliseconds (half a second)
+        }, 200); // Animation duration: 500 milliseconds (half a second)
     }
     
     lastTouchY = currentTouchY;
