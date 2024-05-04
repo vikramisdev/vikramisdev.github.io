@@ -89,3 +89,17 @@ for (let y of slang) {
     $(".info-dialog").show(200);
   });
 }
+
+function openUrl(url) {
+  window.open(url);
+}
+
+$(".project-1 button").click(function() {
+  openUrl("https://vikram.is-a.dev/dynamic-homepage");
+});
+
+$(".project-2 button").click(function() {
+  openUrl("https://vikram.is-a.dev/dynamic-lyrics");$(".project-1 button").click(function() {
+    openUrl("https://vikram.is-a.dev/dynamic-homepage")
+  });
+});
