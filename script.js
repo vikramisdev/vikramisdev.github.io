@@ -51,7 +51,7 @@ $(".info-dialog-dismis-btn").click(function() {
 });
 
 // languages i know and its description
-var skillSet = {
+var pSkillSet = {
   python : "Python was the first language that i learnt, so i know it very well.",
   java: "I learned java in my college, don't have a high level experience in it.",
   html: "There is too less to learn, i know it very well.",
@@ -65,12 +65,27 @@ var skillSet = {
   kotlin: "As i learned android with java it felt like old and time consuming, therefore started learning kotlin !"
 }
 
-var obj = $(".about-container-skills-1-content").children();
+var sSkillSet = {
+  english: "I can speak english very well.",
+  hindi: "Hindi is my mother tongue language hence i am fluent in it.",
+  marathi: "As i live in Maharashtra i know marathi very well, i am fluent in Marathi."
+}
 
-for (let x of obj) {
+var plang = $(".about-container-skills-1-content").children();
+var slang = $(".about-container-skills-2-content").children();
+
+for (let x of plang) {
   x.addEventListener("click", function(){
     $(".info-dialog-title").text(x.alt.toUpperCase());
-    $(".info-dialog-content").text(skillSet[x.alt]);
+    $(".info-dialog-content").text(pSkillSet[x.alt]);
+    $(".info-dialog").show(200);
+  });
+}
+
+for (let y of slang) {
+  y.addEventListener("click", function(){
+    $(".info-dialog-title").text(y.alt.toUpperCase());
+    $(".info-dialog-content").text(sSkillSet[y.alt]);
     $(".info-dialog").show(200);
   });
 }
