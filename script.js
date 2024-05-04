@@ -48,17 +48,17 @@ $(".info-dialog-dismis-btn").click(function() {
 });
 
 var skillSet = {
-  python : "I know python very well",
-  java: "I know java",
-  html: "I know html",
-  css: "I know css",
-  cprogramming: "I know c programming",
-  javascript: "i know js",
-  docker: "i know docker",
-  git: "i know git and github",
-  linux: "i know linux ",
-  android: "i know android",
-  kotlin: "i know kotlin."
+  python : "Python was the first language that i learnt, so i know it very well.",
+  java: "I learned java in my college, don't have a high level experience in it.",
+  html: "There is too less to learn, i know it very well.",
+  css: "CSS looks easy but when you go deeper you understand its not just about the styles.",
+  cprogramming: "C language was hard for me at first. But later it become more interesting for me !",
+  javascript: "JavaScript is like a combination of java & python that's why it was easy to learn.",
+  docker: "well i not a professional in containerising applications in docker, i just know what docker does.",
+  git: "GitHub is very well known platform. I know and understand it since 2019.",
+  linux: "Linux attracted me because of its open source and very less (almost no) restrictions.",
+  android: "I am just a rookie in android, learning all the basics from starting !",
+  kotlin: "As i learned android with java it felt like old and time consuming, therefore started learning kotlin !"
 }
 
 var obj = $(".about-container-skills-1-content").children();
