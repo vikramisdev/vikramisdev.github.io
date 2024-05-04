@@ -37,7 +37,36 @@ $(window).on('touchmove', function(event) {
     lastTouchY = currentTouchY;
 });
 
+
 // navigation helper
 function scrollToPage(page) {
-document.getElementById(page).scrollIntoView({behavior: 'smooth'});
+  document.getElementById(page).scrollIntoView({behavior: 'smooth'});
+}
+
+$(".info-dialog-dismis-btn").click(function() {
+  $(".info-dialog").hide();
+});
+
+var skillSet = {
+  python : "I know python very well",
+  java: "I know java",
+  html: "I know html",
+  css: "I know css",
+  cprogramming: "I know c programming",
+  javascript: "i know js",
+  docker: "i know docker",
+  git: "i know git and github",
+  linux: "i know linux ",
+  android: "i know android",
+  kotlin: "i know kotlin."
+}
+
+var obj = $(".about-container-skills-1-content").children();
+
+for (let x of obj) {
+  x.addEventListener("click", function(){
+    $(".info-dialog-title").text(x.alt.toUpperCase());
+    $(".info-dialog-content").text(skillSet[x.alt]);
+    $(".info-dialog").show(200);
+  });
 }
