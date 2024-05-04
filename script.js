@@ -1,3 +1,5 @@
+// just redirect to the mail app with the input
+// fields from the contact me form
 function composeMail() {
     var name = document.getElementById('mail-name').value;
     var message = document.getElementById('mail-message').value;
@@ -16,7 +18,7 @@ function composeMail() {
     }
 }
 
-// jQuery
+// this controls the navigation hide & show animation & functionalities 
 var lastTouchY = 0;
 
 $(window).on('touchmove', function(event) {
@@ -26,12 +28,12 @@ $(window).on('touchmove', function(event) {
         // Scrolling down
         $(".navbar-container").stop().animate({
             bottom: "0px"
-        }, 200); // Animation duration: 500 milliseconds (half a second)
+        }, 200); // Animation: 500 millisecond 
     } else {
         // Scrolling up
         $(".navbar-container").stop().animate({
             bottom: "-120px"
-        }, 200); // Animation duration: 500 milliseconds (half a second)
+        }, 200); // Animation: 500 millisecond
     }
     
     lastTouchY = currentTouchY;
@@ -43,10 +45,12 @@ function scrollToPage(page) {
   document.getElementById(page).scrollIntoView({behavior: 'smooth'});
 }
 
+// this closes the info dialog box
 $(".info-dialog-dismis-btn").click(function() {
   $(".info-dialog").hide();
 });
 
+// languages i know and its description
 var skillSet = {
   python : "Python was the first language that i learnt, so i know it very well.",
   java: "I learned java in my college, don't have a high level experience in it.",
