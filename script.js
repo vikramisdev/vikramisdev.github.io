@@ -77,7 +77,7 @@ var slang = $(".about-container-skills-2-content").children();
 for (let x of plang) {
   x.addEventListener("click", function(){
     $(".info-dialog-title").text(x.alt.toUpperCase());
-    $(".info-dialog-content").text(pSkillSet[x.alt]);
+    $(".info-dialog-content").text(pSkillSet[x.alt.toLowerCase()]);
     $(".info-dialog").show(200);
   });
 }
@@ -85,7 +85,7 @@ for (let x of plang) {
 for (let y of slang) {
   y.addEventListener("click", function(){
     $(".info-dialog-title").text(y.alt.toUpperCase());
-    $(".info-dialog-content").text(sSkillSet[y.alt]);
+    $(".info-dialog-content").text(sSkillSet[y.alt.toLowerCase()]);
     $(".info-dialog").show(200);
   });
 }
@@ -99,7 +99,23 @@ $(".project-1 button").click(function() {
 });
 
 $(".project-2 button").click(function() {
-  openUrl("https://vikram.is-a.dev/dynamic-lyrics");$(".project-1 button").click(function() {
+    openUrl("https://vikram.is-a.dev/dynamic-lyrics");
+});
+
+$(".project-1 button").click(function() {
     openUrl("https://vikram.is-a.dev/dynamic-homepage")
-  });
+ });
+ 
+
+$(document).ready(function() {
+  $(".navbar").animate({
+    bottom: "0px"
+  }, 500);
+});
+
+$(document).ready(function() {
+  $(".profile-container").animate({
+    opacity: "1",
+    marginTop: "80px"
+  }, 500);
 });
