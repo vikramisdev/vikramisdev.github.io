@@ -26,12 +26,12 @@ $(window).on('touchmove', function(event) {
     
     if (currentTouchY > lastTouchY) {
         // Scrolling down
-        $(".navbar-container").stop().animate({
+        $(".navbar").stop().animate({
             bottom: "0px"
         }, 200); // Animation: 500 millisecond 
     } else {
         // Scrolling up
-        $(".navbar-container").stop().animate({
+        $(".navbar").stop().animate({
             bottom: "-120px"
         }, 200); // Animation: 500 millisecond
     }
