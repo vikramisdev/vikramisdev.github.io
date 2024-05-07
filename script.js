@@ -105,18 +105,15 @@ $(".project-2 button").click(function() {
 $(".project-1 button").click(function() {
     openUrl("https://vikram.is-a.dev/dynamic-homepage")
  });
- 
 
 $(document).ready(function() {
   $(".navbar").animate({
     bottom: "0px"
   }, 500);
-});
-
-$(document).ready(function() {
+  
   $(".profile-container").animate({
     opacity: "1",
-    marginTop: "80px"
+    marginTop: "80px",
+    boxShadow: "0px 0px 15px 2px rgba(0, 0, 0, 0.4);"
   }, 500);
 });
-

@@ -145,7 +145,8 @@
 }
 
 .about-container-skills-1-content,
-.about-container-skills-2-content {
+.about-container-skills-2-content,
+.work-container-description {
     text-align: left;
     margin: 20px 0 0 0;
     width: calc(100%) - 20px;
@@ -158,6 +159,10 @@
 }
 
 .about-container-skills-2-content {
+    background: rgba(144, 144, 192, 0.1);
+}
+
+.work-container-description {
     background: rgba(144, 144, 192, 0.1);
 }
 
@@ -329,7 +334,6 @@
   border: none;
   box-shadow: none;
 }
-
 
 /* screen less than or equal to 720px */
 @media (max-width: 720px) {
