@@ -357,6 +357,10 @@
   color: black;
 }
 
+.compose-button li:hover {
+  filter: invert();
+}
+
 /* screen less than or equal to 720px */
 @media (max-width: 720px) {
     .navbar-container-image {

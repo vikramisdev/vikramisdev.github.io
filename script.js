@@ -166,3 +166,14 @@ $(document).ready(function() {
     animateNavbarShow();
     animateProfileTabDown();
 });
+
+socialUrl = {
+  "facebook": "https://facebook.com/vikramvishwakarma",
+  "instagram": "https://instagram.com/vikramisdev",
+  "twitter": "https://x.com/vikramidev",
+  "linkedin": "https://linkedin.com/vikramisdev"
+}
+
+$(".compose-button li").click(function() {
+  openUrl(socialUrl[$(this).attr("name")]);
+});
