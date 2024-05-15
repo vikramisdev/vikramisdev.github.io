@@ -168,10 +168,10 @@ $(document).ready(function() {
 });
 
 socialUrl = {
-  "facebook": "https://facebook.com/vikramvishwakarma",
+  "facebook": "https://www.facebook.com/profile.php?id=100015739515127",
   "instagram": "https://instagram.com/vikramisdev",
-  "twitter": "https://x.com/vikramidev",
-  "linkedin": "https://linkedin.com/vikramisdev"
+  "twitter": "https://x.com/vikram_v18",
+  "linkedin": "https://www.linkedin.com/in/vikramisdev"
 }
 
 $(".compose-button li").click(function() {

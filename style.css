@@ -358,7 +358,6 @@
 }
 
 .compose-button li:hover {
-  filter: invert();
 }
 
 /* screen less than or equal to 720px */
