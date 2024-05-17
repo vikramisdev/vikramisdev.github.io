@@ -428,7 +428,7 @@
       background: #c1c1c1;
   }
   
-  .feedback-container-name, .feedback-container-message {
+  .feedback-container-name input, .feedback-container-message textarea {
     border: 1px solid whitesmoke;
   }
 }
