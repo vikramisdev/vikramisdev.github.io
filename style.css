@@ -427,6 +427,10 @@
   .feedback-container-compose-btn {
       background: #c1c1c1;
   }
+  
+  .feedback-container-name, .feedback-container-message {
+    border: 1px solid whitesmoke;
+  }
 }
 
 
