@@ -4,27 +4,27 @@
 var navbarHidden = false;
 
 function composeMail() {
-    var name = document.getElementById('mail-name').value;
-    var message = document.getElementById('mail-message').value;
-    var recipientEmail = 'vs423502@gmail.com';
+  var name = document.getElementById('mail-name').value;
+  var message = document.getElementById('mail-message').value;
+  var recipientEmail = 'vs423502@gmail.com';
 
-    if (name.trim() === '' || message.trim() === '') {
-        alert('Please fill all the details of mail.');
-    }
-    else {
-        var body = 'My name is ' + name + ', \n\n' + message;
-        var mailtoUrl = 'mailto:' + recipientEmail + '?subject=' + '&body=' + body;
-        // Open mail client with composed email
-        window.open(mailtoUrl);
-        // Clear input fields
-        document.getElementById('mail-name').value = '';
-        document.getElementById('mail-message').value = '';
-    }
+  if (name.trim() === '' || message.trim() === '') {
+    alert('Please fill all the details of mail.');
+  }
+  else {
+    var body = 'My name is ' + name + ', \n\n' + message;
+    var mailtoUrl = 'mailto:' + recipientEmail + '?subject=' + '&body=' + body;
+    // Open mail client with composed email
+    window.open(mailtoUrl);
+    // Clear input fields
+    document.getElementById('mail-name').value = '';
+    document.getElementById('mail-message').value = '';
+  }
 }
 
 // navigation helper
 function scrollToPage(page) {
-  document.getElementById(page).scrollIntoView({behavior: 'smooth'});
+  document.getElementById(page).scrollIntoView({ behavior: 'smooth' });
 }
 
 function openUrl(url) {
@@ -36,49 +36,60 @@ function openUrl(url) {
 // Function to handle touch event for navbar animation
 var lastTouchY = 0;
 $(window).on('touchmove', function(event) {
-    var currentTouchY = event.originalEvent.touches[0].clientY;
-    
-    if (currentTouchY > lastTouchY) {
-        // Scrolling down, show navbar
-        animateNavbarShow("0px", 1000);
-    } else {
-        // Scrolling up, hide navbar
-        animateNavbarHide();
-    }
-    
-    lastTouchY = currentTouchY;
+  var currentTouchY = event.originalEvent.touches[0].clientY;
+
+  if (currentTouchY > lastTouchY) {
+    // Scrolling down, show navbar
+    animateNavbarShow(1000);
+  } else {
+    // Scrolling up, hide navbar
+    animateNavbarHide();
+  }
+
+  lastTouchY = currentTouchY;
 });
 
 
 // Function to animate navbar show
-function animateNavbarShow(value = "0px", duration=1500) {
+function animateNavbarShow(duration = 1500) {
+  console.log($(".navbar").css("bottom"));
+  
+  if ($(".navbar").css("bottom") != "0px") {
     anime({
-        targets: ".navbar",
-        bottom: value,
-        easing: "easeOutExpo",
-        duration: duration
+      targets: ".navbar",
+      bottom: "0px",
+      easing: "easeOutExpo",
+      duration: duration
     });
+  }
 }
 
 // Function to animate navbar hide
-function animateNavbarHide() {
-    animateNavbarShow("-120px", 1500);
+function animateNavbarHide(duration = 1500) {
+  if ($(".navbar").css("bottom") != "-120px") {
+    anime({
+      targets: ".navbar",
+      bottom: "-120px",
+      easing: "easeOutExpo",
+      duration: duration
+    });
+  }
 }
 
 // Function to animate profile tab down when page loads completely
-function animateProfileTabDown(duration=2000) {
-    anime({
-        targets: ".profile-container",
-        opacity: "1.0",
-        marginTop: "80px",
-        boxShadow: "0px 0px 15px 2px rgba(0, 0, 0, 0.4)",
-        duration: duration,
-    });
+function animateProfileTabDown(duration = 2000) {
+  anime({
+    targets: ".profile-container",
+    opacity: "1.0",
+    marginTop: "80px",
+    boxShadow: "0px 0px 15px 2px rgba(0, 0, 0, 0.4)",
+    duration: duration,
+  });
 }
 
 // languages i know and its description
 var pSkillSet = {
-  python : "Python was the first language that i learnt, so i know it very well.",
+  python: "Python was the first language that i learnt, so i know it very well.",
   java: "I learned java in my college, don't have a high level experience in it but i know the basics.",
   html: "Html is simple yet so much in it, i have completed like everything in it.",
   css: "CSS looks easy but when you go deeper you understand its not just about the styles, I know css 60%",
@@ -101,7 +112,7 @@ var sSkillSet = {
 var plang = $(".about-container-skills-1-content").children();
 var slang = $(".about-container-skills-2-content").children();
 
-function setAndShowDialog(x, skillSet, duration=200) {
+function setAndShowDialog(x, skillSet, duration = 200) {
   $(".info-dialog-title").text(x.alt.toUpperCase());
   $(".info-dialog-content").text(skillSet[x.alt.toLowerCase()]);
   anime({
@@ -113,40 +124,40 @@ function setAndShowDialog(x, skillSet, duration=200) {
 }
 
 for (let x of plang) {
-  x.addEventListener("click", function(){
+  x.addEventListener("click", function() {
     setAndShowDialog(x, pSkillSet);
   });
 }
 
 for (let y of slang) {
-  y.addEventListener("click", function(){
+  y.addEventListener("click", function() {
     setAndShowDialog(y, pSkillSet);
   });
 }
 
 // Event listeners for closing info dialog box
 $(".info-dialog-dismis-btn").click(function() {
-    $(".info-dialog").hide();
+  $(".info-dialog").hide();
 });
 
 // Loop through language skill elements and attach event listeners
 $(".about-container-skills-1-content").children().each(function() {
-    $(this).click(function() {
-        var lang = $(this).attr("alt").toLowerCase();
-        $(".info-dialog-title").text(lang.toUpperCase());
-        $(".info-dialog-content").text(pSkillSet[lang]);
-        $(".info-dialog").show(200);
-    });
+  $(this).click(function() {
+    var lang = $(this).attr("alt").toLowerCase();
+    $(".info-dialog-title").text(lang.toUpperCase());
+    $(".info-dialog-content").text(pSkillSet[lang]);
+    $(".info-dialog").show(200);
+  });
 });
 
 // Loop through spoken language elements and attach event listeners
 $(".about-container-skills-2-content").children().each(function() {
-    $(this).click(function() {
-        var lang = $(this).attr("alt").toLowerCase();
-        $(".info-dialog-title").text(lang.toUpperCase());
-        $(".info-dialog-content").text(sSkillSet[lang]);
-        $(".info-dialog").show(200);
-    });
+  $(this).click(function() {
+    var lang = $(this).attr("alt").toLowerCase();
+    $(".info-dialog-title").text(lang.toUpperCase());
+    $(".info-dialog-content").text(sSkillSet[lang]);
+    $(".info-dialog").show(200);
+  });
 });
 
 $(".project-1 button").click(function() {
@@ -154,17 +165,17 @@ $(".project-1 button").click(function() {
 });
 
 $(".project-2 button").click(function() {
-    openUrl("https://vikram.is-a.dev/dynamic-lyrics");
+  openUrl("https://vikram.is-a.dev/dynamic-lyrics");
 });
 
 $(".project-1 button").click(function() {
-    openUrl("https://vikram.is-a.dev/dynamic-homepage")
- });
+  openUrl("https://vikram.is-a.dev/dynamic-homepage")
+});
 
 // Run animations when page is fully loaded
 $(document).ready(function() {
-    animateProfileTabDown();
-    animateNavbarShow();
+  animateNavbarShow();
+  animateProfileTabDown();
 });
 
 socialUrl = {
