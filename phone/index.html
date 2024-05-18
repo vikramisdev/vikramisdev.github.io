@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>This is Vikram Vishwakarma</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="icon" href="res/vikram_aliceblue_round.png" type="image/x-icon"/>
+    
+    <script src="../lib/anime.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="home" class="container">
+        
+        <!-- profile card -->
+        <div class="profile-container">
+            <div class="profile-name-container">
+                <h1 class="text profile-container-name">VIKRAM<br>VISHWAKARMA</h1>
+                <p class="text profile-container-quote">Experience is the name everyone gives to their mistakes.
+                </p>
+            </div>
+
+            <div class="profile-container-image">
+                <img src="res/vikram_aliceblue.png" />
+            </div>
+        </div>
+        
+        <div id="branding-container" class="branding-container">
+            <p class="text brand-container-title">VISUAL & WEB DESIGNER
+BASED IN INDIA</p>
+            <p class="text brand-container-description">There is always a reason behind everything, everywhere.</p>
+        </div>
+        
+        <div id="about" class="about-container">
+            <!--<h2 class="text about-container-title">ABOUT ME</h2>-->
+            <p class="text about-container-description">Hey There,<br>My name is <b>Vikram Vishwakarma</b> and I am from Maharashtra, India. It's nice to meet you on my portfolio website. I am extremely happy that you visited my portfolio website. I am a <s>Genius, billionaire, playboy, philanthropist</s> simple geek learning new things and studying in the field of computer science & exploring. I am still learning in college, waiting for my graduation to be completed soon.</p>
+        </div>
+        
+        <!-- about container -->
+        <div class="about-container-skills">
+            <div class="about-container-skills-1">
+                <p class="text"><b>PROGRAMMING SKILLS I HAVE</b></p>
+                
+                <div class="about-container-skills-1-content">
+                    <img src="https://img.shields.io/badge/python-white?style=for-the-badge&logo=python&logoColor=black" alt="python" />
+                    <img src="https://img.shields.io/badge/java-white?style=for-the-badge&logo=java&logoColor=black" alt="java" />
+                    <img src="https://img.shields.io/badge/html-white?style=for-the-badge&logo=html5&logoColor=black" alt="html" />
+                    <img src="https://img.shields.io/badge/css-white?style=for-the-badge&logo=css3&logoColor=black " alt="css" />
+                    <img src="https://img.shields.io/badge/programming-white?style=for-the-badge&logo=c&logoColor=black " alt="cprogramming" />
+                    <img src="https://img.shields.io/badge/javascript-white?style=for-the-badge&logo=javascript&logoColor=black " alt="javascript " />                    
+                    <img src="https://img.shields.io/badge/docker-white?style=for-the-badge&logo=docker&logoColor=black " alt="docker" />
+                    <img src="https://img.shields.io/badge/git-white?style=for-the-badge&logo=git&logoColor=black " alt="git" />
+                    <img src="https://img.shields.io/badge/linux-white?style=for-the-badge&logo=linux&logoColor=black " alt="linux" />
+                    <img src="https://img.shields.io/badge/android-white?style=for-the-badge&logo=android&logoColor=black " alt="android" />
+                    <img src="https://img.shields.io/badge/kotlin-white?style=for-the-badge&logo=kotlin&logoColor=black " alt="kotlin" />
+                </div>
+            </div>
+            
+            <div class="about-container-skills-2">
+                <p class="text"><b>LANGUAGES I CAN SPEAK</b></p>
+                <div class="about-container-skills-2-content">
+                    <img src="https://img.shields.io/badge/hindi-white?style=for-the-badge&logo=hindi&logoColor=black " alt="hindi" />
+                    <img src="https://img.shields.io/badge/English-white?style=for-the-badge&logo=English&logoColor=black " alt="English" />
+                    <img src="https://img.shields.io/badge/marathi-white?style=for-the-badge&logo=language&logoColor=black " alt="marathi" />
+                </div>
+            </div>
+        </div>
+        
+        <!-- work container -->
+    <div id="work" class="work-container">
+        <h2 class="text work-container-title">PROJECTS I HAVE WORKED ON</h2>
+        
+        <p class="text work-container-description">
+            I have worked on many projects, including web apps, telegram bots (python), android apps (calculator, contacts), static & fully functional websites, shell programs, flask & django apps, etc.
+        </p>
+        
+        <div class="work-container-works">
+            <div class="project-1 work-container-work-1">
+                <img src="res/dynamic-homepage.png" frameborder="0"></img>
+                <h3>Dynamic Homepage</h3>
+                <p>This is a static homepage website, which is very customisable!</p>
+                <button>Visit</button>
+            </div>
+            
+            <div class="project-2 work-container-work-1">
+                <img src="res/dynamic-lyrics.png" frameborder="0"></img>
+                <h3>Dynamic Lyrics</h3>
+                <p>This website fetches lyrics for english songs and provides the user !</p>
+                <button>Visit</button>
+            </div>
+            </details>
+        </div>
+    </div>
+    
+     <div id="contact" class="feedback-container">
+  <h4 class="text feedback-container-title">LEAVE A MESSAGE</h4>
+  
+  <div class="feedback-container-name">
+    <input class="text" type="text" id="mail-name" name="name" placeholder="Enter name">
+  </div>
+
+  <div class="feedback-container-message">
+    <textarea class="text" id="mail-message" name="message" rows="4" placeholder="Write something ..."></textarea>
+  </div>
+  <div class="compose-button">
+  <li name="instagram" class="bi-instagram"></li>
+  <li name="twitter" class="bi-twitter"></li>
+  <li name="linkedin" class="bi-linkedin"></li>
+  <li name="facebook" class="bi-facebook"></li>
+  <button onclick="composeMail()" class="feedback-container-compose-btn">COMPOSE MAIL</button>
+  </div>
+</div>
+
+
+<footer class="footer">
+        <p>© 2020 Vikram Vishwakama. All Rights Reserved.<br><br>
+Unauthorized copying or reproduction of this website is prohibited.</p>
+    </footer>
+    </div>
+    </div>
+    
+    
+    
+    <!-- navigation bar for desktop & mobile -->
+    <div class="navbar">
+             <div class="navbar-container"> 
+                <div onclick="scrollToPage('home')" class="navbar-container-btn home">
+                    <li class="nav-icon bi-house"></li>
+                </div>
+                <div onclick="scrollToPage('about')" class="navbar-container-btn about">
+                    <li class="nav-icon bi-person-check"></li>
+                </div>
+                <img class="navbar-container-image" src="res/logo.png" />
+                <div onclick="scrollToPage('work')" class="navbar-container-btn work">
+                    <li class="nav-icon bi-briefcase"></li>
+                </div>
+                <div onclick="scrollToPage('contact')" class="navbar-container-btn contact">
+                    <li class="nav-icon bi-send"></li>
+                </div>
+               </div>
+        </div>      
+            
+    <div class="info-dialog" hidden>
+      <div>
+      <h3 class="info-dialog-title">Title</h3>
+      <p class="info-dialog-content">The Content is Loading ...</p>
+      <li class="bi-x-circle-fill info-dialog-dismis-btn"></li>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
