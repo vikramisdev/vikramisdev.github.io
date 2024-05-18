@@ -51,7 +51,7 @@ $(window).on('touchmove', function(event) {
 
 
 // Function to animate navbar show
-function animateNavbarShow(value = "0px", duration=1500) {
+function animateNavbarShow(value = "0px", duration=2000) {
     anime({
         targets: ".navbar",
         bottom: value,
@@ -62,11 +62,11 @@ function animateNavbarShow(value = "0px", duration=1500) {
 
 // Function to animate navbar hide
 function animateNavbarHide() {
-    animateNavbarShow("-120px", 1000);
+    animateNavbarShow("-120px", 2000);
 }
 
 // Function to animate profile tab down when page loads completely
-function animateProfileTabDown(duration=1500) {
+function animateProfileTabDown(duration=2000) {
     anime({
         targets: ".profile-container",
         opacity: "1.0",
@@ -163,8 +163,11 @@ $(".project-1 button").click(function() {
 
 // Run animations when page is fully loaded
 $(document).ready(function() {
-    animateNavbarShow();
+    $("body").css({
+      visibility: "visible"
+    });
     animateProfileTabDown();
+    animateNavbarShow();
 });
 
 socialUrl = {

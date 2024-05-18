@@ -6,6 +6,10 @@
     box-shadow: none;
 }
 
+body {
+  visibility: hidden;
+}
+
 .container {
     padding: 20px 20px 40px 20px;
     background-color: whitesmoke;
