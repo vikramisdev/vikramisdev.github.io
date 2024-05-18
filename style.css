@@ -2,9 +2,14 @@
     padding: 0;
     margin: 0;
 }
-      
+
+body, html {
+  height: 100%;
+  overflow: hidden;
+}
+
 iframe {
     border: none;
-    height: 100vh;
+    height: 100%;
     width: 100%;
 }

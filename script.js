@@ -18,5 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
     loadLayout();
 
     // Reload layout when screen size changes
-    window.addEventListener('resize', loadLayout);
+    window.addEventListener('reload', function() {
+      loadLayout();
+    });
 });
