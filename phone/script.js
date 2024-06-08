@@ -2,6 +2,11 @@
 
 // Function to compose email
 var navbarHidden = false;
+AOS.init({
+  once: false,
+  duration: 500,
+  delay: 100
+});
 
 function composeMail() {
   var name = document.getElementById('mail-name').value;
