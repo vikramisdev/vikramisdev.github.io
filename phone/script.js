@@ -7,3 +7,7 @@ AOS.init({
 function openUrl(url) {
   window.open(url, target="_blank");
 }
+
+function openMail() {
+  window.href = "mailto:vs423502@gmail.com";
+}
