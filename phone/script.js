@@ -9,6 +9,5 @@ function openUrl(url) {
 }
 
 function openMail() {
-  window.href = "mailto:vs423502@gmail.com";
-  alert("clicked mail button");
+  window.open("mailto:vs423502@gmail.com");
 }
