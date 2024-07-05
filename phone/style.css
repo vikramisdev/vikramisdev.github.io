@@ -122,7 +122,7 @@ li {
 
 /* change colours to dark mode */
 @media (prefers-color-scheme: dark) {
-  .container {
+  .main-container {
     background: var(--container-color-dark);
   }
   .profile {
