@@ -7,12 +7,13 @@
 :root {
     --primary-color: white;
     --primary-color-dark: black;
-    --secondary-color: #F9F9FF;
+    --secondary-color: #EBEBFA;
     --secondary-color-dark: #1E1E1E;
     --container-color-dark: #232323;
-    --bio-color: #FAFAFF;
+    --bio-color: #F7F7FF;
     --bio-color-dark: #323232;
     --black: black;
+    --contact-color-dark: #1E1E1E;
 }
 
 li {
@@ -21,7 +22,7 @@ li {
 
 .profile {
   background: var(--secondary-color);
-  padding: 60px 20px;
+  padding: 70px 20px;
   text-align: center;
 }
 
@@ -78,6 +79,7 @@ li {
 .contact-title {
   text-align: center;
   font-weight: normal;
+  font-size: 18px;
   padding: 10px 0px 30px 0px;
 }
 
@@ -117,6 +119,14 @@ li {
 
 .project p {
   padding: 20px 0px 20px 0px;
+}
+
+.project2-btn {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
 }
 
 
