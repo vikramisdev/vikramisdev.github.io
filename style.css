@@ -28,7 +28,7 @@ li {
 
 .profile-pic {
   width: 10rem;
-  border-radius: 40%;
+  border-radius: 50%;
   margin: 132px 0px 0px 0px;
 }
 
@@ -192,6 +192,16 @@ li {
 
   .profile:hover {
     border-radius: 0px;
+  }
+
+  .contact-email-button:hover {
+    outline: 2px solid white;
+    outline-offset: 4px;
+  }
+
+  .project-desc {
+    font-size: 25px;
+    margin: 10px;
   }
 
 }
