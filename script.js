@@ -1,24 +1,46 @@
-// this function just checks if the content is loaded or not and checks the device screen size, based on that it sets the iframe source path of that folder
+AOS.init({
+  once: false,
+  duration: 500,
+  delay: 100
+});
 
-document.addEventListener("DOMContentLoaded", function() {
-    function loadLayout() {
-        const iframe_container = document.getElementById('iframe-container');
-        let layoutPath;
+function openUrl(url) {
+  window.open(url, target="_blank");
+}
 
-        if (window.innerWidth <= 768) { // Assuming 768px is the min phone screen size 
-            layoutPath = 'phone/index.html';
-        } else {
-            layoutPath = 'desktop/index.html';
-        }
+function openMail() {
+  window.open("mailto:vs423502@gmail.com");
+}
 
-        iframe_container.src = layoutPath;
-    }
+// jquery
 
-    // Load layout initially
-    loadLayout();
+$(document).ready(function(){
+    // start animation when loaded
+    setTimeout(function(){
+          $(".profile").animate({
+            borderTopLeftRadius: "0px",
+            borderTopRightRadius: "0px",
+            borderBottomLeftRadius: "50px",
+            borderBottomRightRadius: "50px"
+        }, 500);
+    }, 800);
+    
+    $(".profile").on("touchstart", function(){
+        $(this).stop().animate({
+            borderTopLeftRadius: "0px",
+            borderTopRightRadius: "0px",
+            borderBottomLeftRadius: "0px",
+            borderBottomRightRadius: "0px"
+        }, 500);
+    });
 
-    // Reload layout when screen size changes
-    window.addEventListener('resize', function() {
-      loadLayout();
+    $(".profile").on("touchend", function(){
+        $(this).stop().animate({
+            borderTopLeftRadius: "0px",
+            borderTopRightRadius: "0px",
+            borderBottomLeftRadius: "50px",
+            borderBottomRightRadius: "50px"
+        }, 500);
     });
 });
+
