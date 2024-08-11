@@ -152,42 +152,42 @@ li {
   }
 }
 
-/* responsive */
-@media screen and (min-width: 769px) {
+/* Responsive for 15.6 inch laptops (1920x1080) */
+@media screen and (min-width: 1366px) {
   .project img {
-    width: 50%;
+    width: 40%;
   }
 
   .bio {
-    margin: 20px;
-    font-size: 20px;
+    margin: 30px;
+    font-size: 22px;
   }
 
   .profession-title {
-    font-size: 120px;
-    padding-top: 30px;
+    font-size: 100px;
+    padding-top: 40px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
   .profile-name {
-    font-size: 30px;
+    font-size: 28px;
   }
 
   .profile-pic {
     border-radius: 50%;
-    width: 14rem;
+    width: 12rem;
   }
 
   .profession-quote {
-    font-size: 25px;
+    font-size: 22px;
   }
 
   .profile-quote {
-    font-size: 25px;
+    font-size: 22px;
   }
 
   .profile {
-    border-radius: 0px 0px 100px 100px;
+    border-radius: 0px 0px 80px 80px;
   }
 
   .profile:hover {
@@ -196,12 +196,11 @@ li {
 
   .contact-email-button:hover {
     outline: 2px solid white;
-    outline-offset: 4px;
+    outline-offset: 5px;
   }
 
   .project-desc {
-    font-size: 25px;
-    margin: 10px;
+    font-size: 22px;
+    margin: 15px;
   }
-
 }
