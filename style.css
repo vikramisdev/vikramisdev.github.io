@@ -152,8 +152,8 @@ li {
   }
 }
 
-/* Responsive for 15.6 inch laptops (1920x1080) */
-@media screen and (min-width: 1366px) {
+/* Responsive */
+@media only screen and (min-width: 768px) {
   .project img {
     width: 40%;
   }
