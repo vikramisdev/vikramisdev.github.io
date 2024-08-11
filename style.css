@@ -153,7 +153,7 @@ li {
 }
 
 /* responsive */
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 769px) {
   .project img {
     width: 50%;
   }
