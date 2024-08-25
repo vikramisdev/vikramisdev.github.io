@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  transition: all 1s ease;
 }
 
 :root {
@@ -14,6 +15,7 @@
     --bio-color-dark: #323232;
     --black: black;
     --contact-color-dark: #1E1E1E;
+    --theme: "dark"
 }
 
 li {
@@ -129,28 +131,40 @@ li {
   align-items: center;
 }
 
-
-/* change colours to dark mode */
-@media (prefers-color-scheme: dark) {
-  .main-container {
-    background: var(--container-color-dark);
-  }
-  .profile {
-    background: var(--secondary-color-dark);
-  }
-
-  .bio {
-    background: var(--bio-color-dark);
-  }
-
-  .white-text {
-    color: black;
-  }
-
-  .black-text {
-    color: white;
-  }
+.dark-mode-container {
+  background-color: ghostwhite;
+  width: 120px;
+  height: 60px;
+  padding: 10px 15px;
+  border-radius: 50px;
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  display: flex;
+  justify-content: left;
 }
+
+.dark-mode-container li {
+  font-size: 20px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  padding: 15px;
+}
+
+.bi-moon-fill {
+  color: lightblue;
+  background: var(--container-color-dark);
+}
+
+.bi-sun-fill {
+  color: orange;
+  background-color: var(--secondary-color);
+}
+
 
 /* Responsive */
 @media only screen and (min-width: 768px) {
