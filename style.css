@@ -162,12 +162,12 @@ li {
 
 .bi-sun-fill {
   color: orange;
-  background-color: var(--secondary-color);
+
 }
 
 
 /* Responsive */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 720px) {
   .project img {
     width: 40%;
   }
