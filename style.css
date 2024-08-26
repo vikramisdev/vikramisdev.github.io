@@ -1,3 +1,4 @@
+/* Universal Styles */
 * {
   margin: 0;
   padding: 0;
@@ -22,6 +23,7 @@ li {
   list-style: none;
 }
 
+/* Profile Section */
 .profile {
   background: var(--secondary-color);
   padding: 70px 20px;
@@ -31,46 +33,46 @@ li {
 .profile-pic {
   width: 10rem;
   border-radius: 50%;
-  margin: 132px 0px 0px 0px;
+  margin-top: 132px;
 }
 
 .profile-name {
-  margin: 20px 0px 0px 0px;
-  font-size: px;
+  margin-top: 20px;
+  font-size: 20px; /* Specify font size */
 }
 
 .profile-quote {
-  padding: 10px 0px 0px 0px;
+  padding-top: 10px;
 }
 
-/* profession section */
+/* Profession Section */
 .profession {
-  padding: 20px 20px 60px 20px;
+  padding: 20px 20px 60px;
   text-align: center;
 }
 
 .profession-title {
   font-size: 60px;
-  padding: 30px 0px 0px 0px;
+  padding-top: 30px;
 }
 
 .profession-quote {
-  padding: 20px 0px 0px 0px;
+  padding-top: 20px;
 }
 
-/* bio */
+/* Bio Section */
 .bio {
   padding: 20px;
   background: var(--bio-color);
-  border-radius: 20px 20px 0px 0px;
+  border-radius: 20px 20px 0 0;
 }
 
 .bio-description {
   text-align: justify;
-  padding: 40px 0px 60px 0px;
+  padding: 40px 0 60px;
 }
 
-/* contact section */
+/* Contact Section */
 .contact {
   padding: 20px;
   background: var(--black);
@@ -79,10 +81,8 @@ li {
 }
 
 .contact-title {
-  text-align: center;
-  font-weight: normal;
   font-size: 18px;
-  padding: 10px 0px 30px 0px;
+  padding: 10px 0 30px;
 }
 
 .contact-button-container {
@@ -104,9 +104,9 @@ li {
   font-size: 18px;
 }
 
-/* projects section */
+/* Projects Section */
 .projects {
-  padding: 30px 0px;
+  padding: 30px 0;
 }
 
 .project {
@@ -120,7 +120,7 @@ li {
 }
 
 .project p {
-  padding: 20px 0px 20px 0px;
+  padding: 20px 0;
 }
 
 .project2-btn {
@@ -165,7 +165,7 @@ li {
   color: orange;
 }
 
-/* Responsive */
+/* Responsive Styles */
 @media only screen and (min-width: 770px) {
   .project img {
     width: 40%;
@@ -191,24 +191,20 @@ li {
   }
 
   .profile-pic {
-    border-radius: 50%;
     width: 12rem;
   }
 
-  .profession-quote {
-    font-size: 22px;
-  }
-
+  .profession-quote,
   .profile-quote {
     font-size: 22px;
   }
 
   .profile {
-    border-radius: 0px 0px 80px 80px;
+    border-radius: 0 0 80px 80px;
   }
 
   .profile:hover {
-    border-radius: 0px;
+    border-radius: 0;
   }
 
   .contact-email-button:hover {
