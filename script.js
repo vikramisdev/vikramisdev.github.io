@@ -99,8 +99,8 @@ $(document).ready(function () {
   $(".profile").on("touchstart touchend", function (event) {
     const isTouchStart = event.type === "touchstart";
     $(this).stop().animate({
-      borderTopLeftRadius: isTouchStart ? "0px" : "50px",
-      borderTopRightRadius: isTouchStart ? "0px" : "50px",
+      borderTopLeftRadius: isTouchStart ? "0px" : "0px",
+      borderTopRightRadius: isTouchStart ? "0px" : "0px",
       borderBottomLeftRadius: isTouchStart ? "0px" : "50px",
       borderBottomRightRadius: isTouchStart ? "0px" : "50px",
     }, 500);
